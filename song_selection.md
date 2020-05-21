@@ -1,3 +1,9 @@
+---
+layout: page
+title: Song Selection
+---
+
+
 [heading][size=150][u]Song Selection[/u][/size][/heading]
 [box= ]Again, you can start skinning wherever you want to. Most people start with whatever they've got an idea for, which would be gameplay or the song selection in most cases. I will begin with the song selection, because it is a major part of any skin, which will also have a huge impact on the overall feel.
 
