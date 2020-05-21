@@ -8,43 +8,40 @@ There are a few things that you will need, but the most important ones are dedic
 You will need an image editor that supports transparency and, optionally, an audio editor. The following are recommendations, but any software you choose will probably work.
 
 - Image Editors
-    - [Paint.NET](https://www.getpaint.net/) (free)
+    - [Paint.NET](https://www.getPaint.NET/) (free)
     - [GIMP](https://www.gimp.org/) (free)
     - [PhotoShop](https://www.adobe.com/products/photoshop.html) (paid)
 - Audio Editors
     - [Audacity](https://www.audacityteam.org/) (free)
     - [FL Studio](https://www.image-line.com/flstudio/) (free/paid)
 
-If you go with Paint.NET you should grab some plugins, they add a lot of great options. [These](http://www.mediafire.com/file/rc9yl9qx2fwqhod/plugins_for_pdn.rar/file) are the plugins that I use.
+If you go with Paint<span>.</span>NET you should grab some plugins, they add a lot of great options. [These](http://www.mediafire.com/file/rc9yl9qx2fwqhod/plugins_for_pdn.rar/file) are the plugins that I use.
 It is recommend for you to know how to use your image editor, I won't be able to show you how to do things in your specific editor, there are just way too many programs. You can search for some tutorials online if you are having trouble with something.
 
 ## Information and Help
 The most important source of information is the [skinnable files list](https://osu.ppy.sh/forum/t/186787). It contains basic information about all known skinnable files. However, not all elements have complete information. Therefore, it's a good idea to look at other skins, both for inspiration and to figure out how the skinner achieves certain things. Completed skins can be found in the [Completed Skins Compendium](https://osu.ppy.sh/forum/t/686664). osu!'s [default skin](http://www.mediafire.com/file/pgguoxluabtgcxd/osu%2521_regular_template.osk/file) is also a good starting point, though some newly added elements may be missing.
 
-Other useful information can be found in the important guides and threads [post](https://osu.ppy.sh/forum/t/611278). The [Skin Checker](https://osu.ppy.sh/forum/t/617168) can help identify any missing files in the skin's folder.
-For additional help, look around in the [main skinning forum](https://osu.ppy.sh/forum/15), and join the [skinship](https://discord.gg/AZ79xJb) and [skinhouse discord servers](https://discord.skinhou.se/).
+Other useful information can be found in the [important guides and threads post](https://osu.ppy.sh/forum/t/611278). The [Skin Checker](https://osu.ppy.sh/forum/t/617168) can help identify any missing files in the skin's folder.
 
+For additional help, look around in the main [skinning forum](https://osu.ppy.sh/forum/15), or join the [skinship](https://discord.gg/AZ79xJb) discord server.
 
 ## Themes and Concepts
 You can pick whatever theme you like, just remember to stick to the rules if you plan to post it on the [skinning forum](https://osu.ppy.sh/forum/15).
 If you don't have a theme you can just mess around in your image editor until you create something you like or you can try to find some inspiration. You can get inspiration from pretty much anywhere. Some people like to look at other players skins, some take inspiration from art they find online, or even from real life.
 Once you have a theme you should consider if it's a good theme. There are two major points for this. Do you have the needed skill? Are there enough resources if you depend on those? 
-It isn't a good idea to do something that is far beyond your skill level. Sure, you need to learn new things at some point, but try to learn things that are just a bit over your skill level first, its likely that it will fail otherwise. The second criteria mostly applies to anime skins. It's quite hard to do a skin about a character if there is barely any artwork of that character, unless you know how to make the required artwork yourself. You could try to use screenshots from the anime the character is from, but that can be a problem as well, especially if the character is just a side character with not much screentime.
+It isn't a good idea to do something that is far beyond your skill level. Sure, you need to learn new things at some point, but try to learn things that are just a bit over your skill level first, its likely that it will fail otherwise. The second criteria mostly applies to anime skins. It's quite hard to do a skin about a character if there is barely any artwork of that character, unless you know how to create the required artwork yourself. You could try to use screenshots from the anime the character is from, but that can be a problem as well, especially if the character is just a side character with not much screentime.
 Once you have your theme you should think of a concept. Just starting without any plan will probably result in wasted work. Your concept should have the following:
 
 - A rough idea of the colour scheme. For the beginning its enough if you e.g. know dark blue + light blue + pink, exact RGB codes arent a must have for the concept;
 - A fitting font;
 - In what direction do you wanna go? Glowy, minimalistic, realistic? (There are many more options, too many to list.)
 - Optional: Background art, a few skinning styles need those;
-- Anime skins: Images of the character you wanna theme it around (You're better off searching for renders on the internet if you're not experienced, but don't worry, you will learn how to render images yourself later on.)
-
-
-
+- Anime skins: Images of the character you want to theme it around (You're better off searching for renders on the internet if you're not experienced, but don't worry, you will learn how to render images yourself later on.)
 
 ## HD/SD elements, Aspect Ratios and Resolution
 There are HD and SD elements. HD elements have the suffix "@2x" and are exactly double the size of the SD image. If an image is e.g. 128x128 in SD, then it will be 256x256 in HD. 
 
-![](https://puu.sh/CZUYm/ada75ada90.png)
+![](https://github.com/RockRoller01/skinninginfo/img/song_selection_SD_vs_hd.png)
 
 It's highly recommended to skin in HD, because it will look a lot sharper ingame and you can easily convert them to SD. **Please note that the skinnable files list only shows SD sizes!** It's important to note that HD images are only used if osu runs with atleast 800px height, but SD images will be used if no HD image is available.
 There is a way to force osu to use HD elements, even if your resolution is below 800px. Open your osu!.PCUSERNAME.cfg (found in the root of your osu! folder) and set HighResolution: to 1. This may increase the load on weaker systems, but you can always set this back to 0 if you feel like it affects your performance while playing.
