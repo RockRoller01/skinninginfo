@@ -3,82 +3,97 @@ layout: page
 title: Song Selection
 ---
 
-
 # Song Selection
 Again, you can start skinning wherever you want to. Most people start with whatever they've got an idea for, which would be gameplay or the song selection in most cases. I will begin with the song selection, because it is a major part of any skin, which will also have a huge impact on the overall feel.
 
 The song selection screen in osu! looks like this:
 
-![](https://puu.sh/DIEn4/4bfc389ed6.png)
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/song_selection_full.png)
+
+</details>
 
 It's made out of several parts, which are:
 
-The Bottom Part:
+<details><summary>Image</summary>
 
-![](https://puu.sh/DIEnA/c8ba3fab58.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/song_selection_marked.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/song_selection_mode_selection.png)
 
-
-The Top Part:
-
-![](https://puu.sh/DIEo5/9e2b54eda4.png)
-
-
-The Song Caroussel:
-
-![](https://puu.sh/DIEog/8a011d644e.png)
-
-
-The Leaderboard:
-
-![](https://puu.sh/DIEop/ee3d778b21.png)
-
-
-And The Mode Selection:
-
-![](https://puu.sh/DIEoB/df5b684ecd.png)
+</details>
  
 
-## Bottom PartLet us start with the bottom part. It consists out of the following images: 
+# Bottom Part
+Let us start with the bottom part. It consists out of the following images: 
 
 - menu-back@2x.png
 - selection-mode@2x.png, selection-mods@2x.png, selection-random@2x.png, selection-options@2x.png
 - selection-mode-over@2x.png, selection-mods-over@2x.png, selection-random-over@2x.png, selection-options-over@2x.png
 - mode-osu-small@2x.png, mode-fruits-small@2x.png, mode-taiko-small@2x.png, mode-mania-small@2x.png
 
-
 But what do they all do?
 menu-back and selection-mode/mods/random/options are the buttons on the left, the -over images are the ones that get shown when you hover over the buttons (although, the back button doesn't have one, it only gets a bit brighter) and the mode-osu/fruits/taiko/mania-small images are the small mode indicators, shown on top of selection-mode.
-There are many ways of designing the song selection, it's totally up to you. Generally though, there are 4 main ways of making the bottom part:
+There are many ways of designing the song selection, it's totally up to you. Generally though, there are 4 main ways of shaping the bottom part:
 
-![](https://puu.sh/CZXN1/eb2732259c.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_style.png)
+
+</details>
 
 There aren't that many things you need to know to get either of these 4 results.
 Whenever you work with the song selection, [this template](https://osu.ppy.sh/community/forums/topics/686407) will be of huge help. On there is everything that the song selection contains, with its standard sizes. You basically just need to trace over it, and then, after you're finished, cut everything into their respective images.
-There are a few things you can do with the bottom part that goes beyond the intended image sizes. The two main things are a height change and a shape change. The default bottompart is only 180px high, but you can make it higher. All of the bottompart buttons have their anchor points at their bottom left corner, meaning they can be extended all the way up to the upper screen border. BUT, there are two things you need to be aware of when doing this. First, if you go too high you might cover the leaderboards or beatmaps. You can extend the bottom part up to roughly ~220px (shown below), without needing to cover anything.
 
-![](https://puu.sh/DIEm2/504470f816.png)
+There are a few things you can do with the bottom part that goes beyond the intended image sizes. The two main things are a height change and a shape change. The default bottompart is only 180px high, but you can make it higher. All of the buttons have their anchor points at their bottom left corner, meaning they can be extended all the way up to the upper screen border. BUT, there are two things you need to be aware of when doing this. First, if you go too high you might cover the leaderboards or beatmaps. You can extend the bottom part up to roughly ~220px (shown below), without covering anything.
 
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_220_height.png)
+
+</details>
 
 You could also only have certain parts go above 180px, especially in the middle of the screen, that space is more or less emtpy anyway:
 
-![](https://puu.sh/Dpy1r/a13fd2804f.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_middle.png)
+
+</details>
 
 The second thing you need to look out for are hitboxes. The hitbox of the buttons is defined by the size of their -over images, meaning it won't be a problem for selection-mode/mods/random/options, but menu-back doesn't have an -over image. The hitbox of it is defined by the size of the button itself. This is the reason why you can't make it too big, because then you might not be able to click your own topscore on the leaderboard. (The maximum size for menu-back (HD) that I would recommend is something around 220px x 500px)
 
 The other thing I mentioned that you can do with the bottompart was changing the shape. This is basically just the same thing as a height increase, you just increase it only in certain parts.
 
-![](https://puu.sh/CZXwX/ca61db1662.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_shape_change.png)
 
-There are just 3 other things I want to talk about regarding the bottompart. Icons, text and the userprofile.
-One of the most important things for the icons and the text is consistency. I often see people use icons with different styles and differently sizes. You should always use the same size for all of your icons, and if you use a round or square-ish design for them, use that design for all of them. It's bad design when three icons are one style and the fourth one has a different style. You also should keep their spacing consistent. And if the icons use a lot of lines/curves you use should use roughly the same line thickness. If they are thicker or smaller it will feel unbalanced overall. The same goes for text: never use different text sizes. People often use different sizes to fit the text for buttons with longer names (e.g. options and random). You should rather try to either make all of the text small or abbreviate random and options. Common abbreviatons are OPT, OPTN, OPTS, RAND, RND and RNDM. Other abbreviations should be fine, as long as it's clear what they mean.
+</details>
 
-So the last thing regarding the bottom part should be the user profile. There are a few options to chose from here. Some people just make a cutout and leave it like it is, but that can look a bit lazy. There are nicer ways to work with the user profile. You should either add some sort of transition to the edge, a proper border or make it look seemless. In the first example I just added some transparency onto the part with the user profile. Not great, but still better than nothing, like in the second one. A nice border or a seemless blend would be the best. For the seemless blend I used transparency. The part with the user profile actually is highly transparent white. But thanks to the transparency it looks like light grey.
+There are just 3 other things I want to talk about regarding the bottompart. Icons, text and the userprofile. One of the most important things for the icons and the text is consistency. You often see people use icons with different styles and differently sizes. You should always use the same size for all of your icons, and if you use a round or square-ish design for them, use that design for all of them. It's bad design when three icons are one style and the fourth one has a different style. You also should keep their spacing consistent. And if the icons use a lot of lines/curves you use should use roughly the same line thickness. If they are thicker or smaller it will feel unbalanced overall. 
 
-![](https://puu.sh/DIDLi/1a16bb4599.png)
+The same goes for text: never use different text sizes. People often use different sizes to fit the text for buttons with longer names (e.g. options and random). You should rather try to either make all of the text small or abbreviate random and options. Common abbreviatons are OPT, OPTN, OPTS and RAND, RND, RNDM. Other abbreviations should be fine, as long as it's clear what they mean.
 
+**Note:** This obviously doesn't only hold true for the bottompart, these are some general design guidelines you should follow. I will not mention this again for the other parts of tutorial, please keep it in mind.
+
+So the last thing regarding the bottom part should be the user profile. There are two things that I want to talk about. The elements of it and the outline. There are a few options to chose from here. Some people just make a cutout and leave it like it is, but that can look a bit lazy. There are nicer ways to work with the user profile. You should either add some sort of transition to the edge, a proper border or make it look seemless. In the first example I just added some transparency onto the part with the user profile. Not great, but still better than nothing, like in the second one. A nice border or a seemless blend would be the best. For the seemless blend I used transparency. The part with the user profile actually is highly transparent white. But thanks to the transparency it looks like light grey, this also works colours other than grey.
+
+ADD GALVITS EXPLANATION
+
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/userprofiles_border.png)
+
+</details>
+
+For the elements you simply have to cover the default ones. This allows you to add a tint to the levelbar by using a transparent colour, reshape the profile image and covering up the default text. When you cover up the text you just have to make sure to leave enough space for 100.00% accuracy, PP amounts over 10000 and levels over 99.
+
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/userprofile_custom.png)
+
+</details>
 
 ## Top part
 Now onto the toppart. This one often is a bigger problem for beginners, but it shouldn't be that hard to understand if you read carefully. The top part only has one editable file, selection-tab@2x, which is used for
