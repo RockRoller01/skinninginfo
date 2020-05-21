@@ -10,7 +10,7 @@ The song selection screen in osu! looks like this:
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/song_selection_full.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/song_selection_full.png)
 
 </details>
 
@@ -18,8 +18,8 @@ It's made out of several parts, which are:
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/song_selection_marked.png)
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/song_selection_mode_selection.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/song_selection_marked.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/song_selection_mode_selection.png)
 
 </details>
  
@@ -38,7 +38,7 @@ There are many ways of designing the song selection, it's totally up to you. Gen
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_style.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/bottom_part_style.png)
 
 </details>
 
@@ -49,7 +49,7 @@ There are a few things you can do with the bottom part that goes beyond the inte
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_220_height.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/bottom_part_220_height.png)
 
 </details>
 
@@ -57,7 +57,7 @@ You could also only have certain parts go above 180px, especially in the middle 
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_middle.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/bottom_part_middle.png)
 
 </details>
 
@@ -67,7 +67,7 @@ The other thing I mentioned that you can do with the bottompart was changing the
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/bottom_part_shape_change.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/bottom_part_shape_change.png)
 
 </details>
 
@@ -83,7 +83,7 @@ ADD GALVITS EXPLANATION
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/userprofile_border.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/userprofile_border.png)
 
 </details>
 
@@ -91,7 +91,7 @@ For the elements you simply have to cover the default ones. This allows you to a
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/userprofile_custom.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/userprofile_custom.png)
 
 </details>
 
@@ -100,18 +100,18 @@ Now onto the toppart. This one often is a bigger problem for beginners, but it s
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_styles.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_styles.png)
 
 </details>
 
 
 You can colour the outline, you can add a background and you can change the shape. The top part isn't directly editable, the file for it is not skinnable. Meaning we will need a workaround. To change the colour of the outline and add a background all we need is the mode-x-small elements (abbreviation for mode-osu-small, mode-fruits-small, mode-taiko-small, mode-mania-small). The important factor is that it is in additive blend mode and doesn't have a size restriction.
 
-To change the colour we basically only need to do a small substraction to get the color we want (or at least the closest one to it). All you need to do to change the colour of the topline is to take [this file](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_outline.png) and change its colour. You can't however change it to directly the colour you want the line to be. The blend mode of the mode-x-small images comes into play here. Due to the additive blend mode it's colour values will always be added onto the top line instead of just covering it. This results in a limitation regarding the colour the top line can be. Any colour that has lower RGB values than the blue of the line (which is 49, 94, 237) can not be achieved. Here is a quick overview of the colours that can be achieved:
+To change the colour we basically only need to do a small substraction to get the color we want (or at least the closest one to it). All you need to do to change the colour of the topline is to take [this file](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_outline.png) and change its colour. You can't however change it to directly the colour you want the line to be. The blend mode of the mode-x-small images comes into play here. Due to the additive blend mode it's colour values will always be added onto the top line instead of just covering it. This results in a limitation regarding the colour the top line can be. Any colour that has lower RGB values than the blue of the line (which is 49, 94, 237) can not be achieved. Here is a quick overview of the colours that can be achieved:
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_colours.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_colours.png)
 
 </details>
 
@@ -125,7 +125,7 @@ If you want, for example, a light blue colour (78, 216, 247) the top bar should 
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_red_result.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_red_result.png)
 
 </details>
 
@@ -133,7 +133,7 @@ The next thing would be to add a background to the mode-x-small. This isn't that
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_bright.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_bright.png)
 
 </details>
 
@@ -141,7 +141,7 @@ To counter this you either will have to choose something else for the background
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_bright_fix.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_bright_fix.png)
 
 </details>
 
@@ -151,8 +151,8 @@ The easiest way to explain this is to simply show what we will do with the file.
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_reshape_example_selection-mode@2x.png)
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_reshape_example_mode-osu-small@2x.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_reshape_example_selection-mode@2x.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_reshape_example_mode-osu-small@2x.png)
 
 </details>
 
@@ -162,7 +162,7 @@ You might've noticed that the black part that covers the shape doesn't reach all
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_info_covered.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_info_covered.png)
 
 </details>
 
@@ -170,7 +170,7 @@ There are a a few gimmicky things you can do with the toppart, custom selection-
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_gimmicks.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_gimmicks.png)
 
 </details>
 
@@ -182,7 +182,7 @@ The search bar works the same way as the other gimmicks, cover up the default an
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_search_bar_size.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_search_bar_size.png)
 
 </details>
 
@@ -196,7 +196,7 @@ There are a few things you should know before you start making your song carouss
 
     <details><summary>Image</summary>
 
-    ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/caroussel_star_scaling.png)
+    ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/caroussel_star_scaling.png)
 
     </details>
 
@@ -204,7 +204,7 @@ There are a few things you should know before you start making your song carouss
 
     <details><summary>Image</summary>
 
-    ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/caroussel_star_box.png)
+    ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/caroussel_star_box.png)
 
     </details>
 
@@ -215,7 +215,7 @@ There isn't a lot you can do with the leaderboard. And for some reason, the lead
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/leaderboard_bg.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/leaderboard_bg.png)
 
 </details>
 
@@ -230,7 +230,7 @@ There are three main styles for the mode selection. Icons only, complete box and
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/mode_selection_styles.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/mode_selection_styles.png)
 
 </details>
 
@@ -239,6 +239,6 @@ I recommend using this template, made by [Galvit](https://osu.ppy.sh/users/76296
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/mode_selection_template.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/mode_selection_template.png)
 
 </details>
