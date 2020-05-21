@@ -10,3 +10,4 @@ Skinning Tutorial
         - [Ranking Panel](./ranking_panel.html)
         - [Mod Icons](./mod_icons.html)
         - [Pause- and Failscreen](./pause-_and_failscreen.html)
+    - [Releasing your Skin](./releasing.html)
