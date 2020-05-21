@@ -4,3 +4,4 @@ baseurl: "/skinninginfo"
 
 exclude:
 - README.md
+theme: jekyll-theme-slate
