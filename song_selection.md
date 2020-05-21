@@ -83,7 +83,7 @@ ADD GALVITS EXPLANATION
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/userprofiles_border.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/userprofile_border.png)
 
 </details>
 
