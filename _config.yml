@@ -1,6 +1,6 @@
 title: Skinning Tutorial
 
-theme: jekyll-theme-cayman
+baseurl: ""
 
 exclude:
 - README.md
