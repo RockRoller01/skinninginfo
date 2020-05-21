@@ -1,3 +1,8 @@
+---
+layout: section
+title: Introduction
+---
+
 Welcome to the the skinning tutorial 2.0!
 This tutorial is a Work In Progress right now, but I will try to add at least one chapter every Sunday. Feel free to leave any questions you've still got in the comments.
 
