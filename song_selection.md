@@ -95,106 +95,150 @@ For the elements you simply have to cover the default ones. This allows you to a
 
 </details>
 
-## Top part
-Now onto the toppart. This one often is a bigger problem for beginners, but it shouldn't be that hard to understand if you read carefully. The top part only has one editable file, selection-tab@2x, which is used for
-the sorting tabs you can see in the top right with the grouping/sorting options. They get tinted red when they are inactive and white when they are selected. If you want to blank them out do not make them 1x1px big, their size defines the hitbox. Also, if your selection-tab is black or completely transparent, the text on it will not be visible while its selected. There are 3 main things you can do with the toppart:
+# Top part
+Now onto the toppart. This one often is a bigger problem for beginners, but it shouldn't be that hard to understand if you read carefully. The top part only has one editable file, selection-tab@2x, which is used for the sorting tabs you can see in the top right with the grouping/sorting options. They get tinted red when they are inactive and white when they are active, while the text gets tinted white while being inactive and black while being active. If you want to blank them out do not make them 1 x 1 pixels big, their size defines the hitbox. Also, if your selection-tab is black or completely transparent, the text on it will not be visible while its selected. There are 3 main things you can do with the toppart:
 
-![](https://puu.sh/Dpysu/bcc6d5a133.png)
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_styles.png)
+
+</details>
 
 
-You can colour the outline, you can add a background and you can change the shape. The top part isn't directly editable, the file for it is not skinnable. Meaning we will need a workaround. To change the colour of the outline and add a background all we need is the mode-x-small elements. The important factor is that it is in additive blend mode and doesn't have a size restriction.
-To change the colour we basically only need to do a small substraction to get the color we want (or at least the closest one to it). All you need to do to change the colour of the topline is to take [this file](https://puu.sh/DpyBE/9ac3b06ec9.png) and change its colour. You can't however change it to directly the colour you want the line to be. The blend mode of the mode-x-small images comes into play here. Due to the additive blend mode it's colour values will always be added onto the top line instead of just covering it. This results in a limitation regarding the colour the top line can be. Any colour that has lower RGB values than the blue of the line (which is 49, 94, 237) can't be achieved. Here is a quick overview of the colours that can be achieved:
+You can colour the outline, you can add a background and you can change the shape. The top part isn't directly editable, the file for it is not skinnable. Meaning we will need a workaround. To change the colour of the outline and add a background all we need is the mode-x-small elements (abbreviation for mode-osu-small, mode-fruits-small, mode-taiko-small, mode-mania-small). The important factor is that it is in additive blend mode and doesn't have a size restriction.
 
-![](https://puu.sh/DpyGZ/ec9ce3555d.png)
+To change the colour we basically only need to do a small substraction to get the color we want (or at least the closest one to it). All you need to do to change the colour of the topline is to take [this file](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_outline.png) and change its colour. You can't however change it to directly the colour you want the line to be. The blend mode of the mode-x-small images comes into play here. Due to the additive blend mode it's colour values will always be added onto the top line instead of just covering it. This results in a limitation regarding the colour the top line can be. Any colour that has lower RGB values than the blue of the line (which is 49, 94, 237) can not be achieved. Here is a quick overview of the colours that can be achieved:
 
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_colours.png)
+
+</details>
 
 To get the right colour for the file you just need to calculate the colours the file needs:
-R = R(of the colour you want to archive) - 49
-G = G(of the colour you want to archive) - 94
-B = B(of the colour you want to archive) - 237
+- R = R(of the colour you want to archive) - 49
+- G = G(of the colour you want to archive) - 94
+- B = B(of the colour you want to archive) - 237
+
 If you get a negative value it means that you can not get a perfect fit. You, however, just calculated the nearest possible result. You just need replace the negative values with 0.
-If you want, for example, a light blue colour (78, 216, 247) the top bar should use a dark green (29, 122, 10). If you want a red colour (247, 49, 79) you will not be able to get that exact red, the best result would be a dark pink (198, 0, 158) that would result in [this pink in-game](https://puu.sh/Dpz8i/d718ff529c.png).
+If you want, for example, a light blue colour (78, 216, 247) the top bar should use a dark green (29, 122, 10). If you want a red colour (247, 49, 79) you will not be able to get that exact red, the best result would be a dark pink (198, 0, 158) that would result in this pink in-game:
+
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_red_result.png)
+
+</details>
 
 The next thing would be to add a background to the mode-x-small. This isn't that hard, all you need to do is to have your layer with the outline and below it a layer with the background. We don't really have any restrictions for the background, thanks to the background of the default top part being black. There are however a few things you should look out for. If the background is too bright you will have a hard time reading any of the song information.
 
-![](https://puu.sh/DpAYG/0e3d331565.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_bright.png)
+
+</details>
 
 To counter this you either will have to choose something else for the background, or you could darken the areas where the song information is.
 
-![](https://puu.sh/DpBb0/81c68efe57.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_bright_fix.png)
 
-The last basic thing we can do with the top part is to change its shape. The only two elements that cover the whole screen are menu-back and mode-x-small. The problem with the mode-x-smalls is that they are in additive blend mode, they won't be able to cover the toppart properly, but we will be still using them for something else. And menu-back's hitbox is defined by it's size, so if you made it cover the whole screen, most of the screen will become a back button. The element we will use is selection-mode. It is placed 448px (HD) from the left screen border, meaning we will only be able to form the shape from the 449th pixel onward. To tint the line on the leftmost 448px we will just use mode-osu-small again.
+</details>
+
+The last basic thing we can do with the top part is to change its shape. The only two elements that cover the whole screen are menu-back and mode-x-small. The problem with the mode-x-smalls is that they are in additive blend mode, they won't be able to cover the toppart properly, but we will be still using them for something else. And menu-back's hitbox is defined by it's size, so if you made it cover the whole screen, the whole screen will become the back button. The element we will use is selection-mode. It is placed 448px (HD) from the left screen border, meaning we will only be able to form the shape from the 449th pixel onward. Selection-mode should only contain a black shape, while the actual image is on mode-osu-small. If we would not do it like this it would be near impossible to properly line up the two files with each other due to how osu!s rendering works.
+Mode-osu-small also allows us to cover those leftmost 448 pixels, but we still have the same colour limitations as mentioned earlier.
 The easiest way to explain this is to simply show what we will do with the file.
 
-![](https://puu.sh/DIxcw/3411aa2675.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_reshape_example_selection-mode@2x.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_reshape_example_mode-osu-small@2x.png)
 
-What we are going to do now is to cover up the curve of the top part with our own shape. You might've noticed that the black part that covers the shape doesn't reach all the way to the top. There is a reason for that, if you make it higher you will cover the map info.  
+</details>
 
-![](https://puu.sh/DIEjp/c397796a46.png)
+Note that if you don't want to reshape and just want to colour your outline with a colour that is not compatible you can cover the line with selection-mode, this will make it so that the line from pixel 449 onwards will be black, meaning you can achieve any colour you want. Just add a blend from whatever colour you have on the leftmost 448 pixels of the line into the colour you have on the rest of the outline. The beatmap info icon gets covered by this, leaving you with the opportunity to add your own. 
 
+You might've noticed that the black part that covers the shape doesn't reach all the way to the top. There is a reason for that, if you make it higher you will cover the map info. 
 
-There are two other things you need to look out for. White fringes and that the beatmap info icon getrs covered. Both have relatively easy fixes.
+<details><summary>Image</summary>
 
-![](https://puu.sh/DIzVK/bac3c74140.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_info_covered.png)
 
+</details>
 
-There are multiple ways to get around these fringes, but the easiest one would be to just use [this top part template](https://puu.sh/DIAer/4d62cca7bd.rar) that I made for this post. It also has the position of the beatmap info icon on it. This leads us to the second thing, the fix for the icon. You just have to add your own one. The position is marked on the song selection template. 
+There are a a few gimmicky things you can do with the toppart, custom selection-tabs, custom search bar and changing or covering the group and sort text.
 
-If you also want to add a background, and not just use black for the colour and replace the topline, you will need an additional step. For this you want the complete top part of selection-mode to be black. You will then put the background and the line onto mode-osu-small. The reason why you need to do this is that it is a pain to allign the background and the line otherwise, without getting some weird fringes, due to them overlapping. Another reason is that even if you would manage to allign them, the position of mode-osu-small slightly shifts between resolutions. You would get some ugly overlapping artifacts on different resolutions then.
+<details><summary>Image</summary>
 
-There are a a few gimmicky things you can do with the toppart, custom selection-tabs and changing or covering the group and sort text.
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_gimmicks.png)
 
-![](https://puu.sh/DIFOI/74f4ead1d4.png)
+</details>
 
+Covering the group and sort text is really easy. You just need selection-mode@2x for it. You have to cover the text. You will have the same problems as with changing the top part shape, covering information. If you make the cover to high it will cover longer song names. Just cut it of as shown on the example for reshaping. If you also want to replace the text and not just cover it up, just put the new text or icon onto mode-osu-small@2x. The one thing you need to be wary of is that this will break on different languages, because they have longer/shorter words for group/sort.
 
-Covering the group and sort text is really easy. You just need selection-mode@2x for it. You have to cover the text. You will have the same problems as with changing the top part shape, white fringes and covering information. If you make the cover to high it will cover longer song names. You can mess around with it yourself, or add [this](https://puu.sh/DIFUU/d71ec26bc8.png) onto your selection-mode. If you also want to replace the text, just put the new text either onto the cover or mode-osu-small@2x, depending on if you use a background for the top part or not. The one thing you need to be wary of is that this will break on different languages, because they have longer/shorter words for group/sort.
+Custom selection tabs work the same way basically. Just cover the ones that allready exist and put your own ones and your own text onto mode-osu-small. The main point of this is that you can change the text and box colour with this and use selection-tab styles that normally wouldn't be possible. You can just make the actual selection-tab a black/completely transparent box, but don't make it a 1x1px blank image. As I already mentioned previously, the hitbox of selection-tabs are defined by their size. The alignment for where you need to place your selection tabs can be found on the song selection template.
 
-Custom selection tabs work the same way basically. Just cover the ones that allready exist and put your own ones and your own text onto mode-osu-small. The main point of this is that you can change the text colour with this and use selection-tab styles that normally wouldn't be possible. You can just make the actualy selection-tab a black/completely transparent box, but don't make it a 1x1px blank image. As I already said previously, the hitbox of selection-tabs are defined by their size, so if you add a blank image your custom selection tabs will be useless. The alignment for where you need to place your selection tabs can be found on the song selection template. If you want to see in-game how it's done just [try these out](https://puu.sh/DIGr0/f7af40418a.rar). Those are the selection-mode and mode-osu-small from two of my skins. I would link to some skins that have it, but there are very few.
+The search bar works the same way as the other gimmicks, cover up the default and put your own onto mode-osu-small. The things you have to look out for is that **Type to search!** is on top of selection-mode, meaning it can't be covered up. The other thing is that the box thats normally around the searchbar expands once you type anything in it. So make sure that your design is big enough to cover up the extended state of the search bar.
 
+<details><summary>Image</summary>
 
-## Song Caroussel and Leaderboard
-There isn't that much that I need to say about these two parts. The caroussel mainly consists out of menu-button-background@2x.png, star@2x.png and 2 ini commands under [Colours]. With the ini commands you can set the colour of the text on menu-button-background. SongSelectActiveText sets the colour for the currently selected card, SongSelectInactiveText sets the colour for all the non selected cards.
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/toppart_search_bar_size.png)
+
+</details>
+
+# Song Caroussel and Leaderboard
+There isn't that much that I need to say about these two parts. The caroussel mainly consists out of menu-button-background@2x.png, star@2x.png and 2 ini commands under **[Colours]**. With the ini commands you can set the colour of the text on menu-button-background. SongSelectActiveText sets the colour for the currently selected card, SongSelectInactiveText sets the colour for all the non selected cards.
 There are a few things you should know before you start making your song caroussel:
 
 - The cards in the caroussel get tinted in various colours. This feature sadly cannot be disabled. These colours are all on the skinnable files spreadsheet. Basically, the only way to somewhat work around this is to use mainly black and dark greys for the menu-button-background, this however doesn't work that well with really colourful themes. You will have to try out yourself if a black one or a colourful one will fit your theme better.
 - The thumbnail is placed 17px away from the left border of the image. The thumbnail is about 227 x 170 pixel big.
-- The stars will get [slightly bigger](https://puu.sh/DIBqg/74ac5d62fd.png) the more there are.
-- If you plan to add a [box](https://puu.sh/DIBtc/57f4dec477.png) around the stars, you need to be aware of the stars shifting. If you have a rank on it or if the map is for another gamemode, the stars will be shifted to the right.
+- The stars will get slightly bigger the more there are.
+
+    <details><summary>Image</summary>
+
+    ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/caroussel_star_scaling.png)
+
+    </details>
+
+- If you plan to add a box around the stars, you need to be aware of the stars shifting. If you have a rank on it or if the map is for another gamemode, the stars will be shifted to the right. So you need to leave space for 11 stars.
+
+    <details><summary>Image</summary>
+
+    ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/caroussel_star_box.png)
+
+    </details>
+
 - Stars used to have a different behaviour. They used to get partially filled. This however was changed with skin.ini version 2.2, which brought us thumbnail support. As such you cannot have thumbnail images and the old star behaviour.
 - Everything gets shifted to the left edge if there is no thumbnail. It's recommend to include a version of the menu-button-background in an extra folder inside your skin that does not have a window for the thumbnail, because there are people who disabled thumbnails in the osu settings.
 
-
-
 There isn't a lot you can do with the leaderboard. And for some reason, the leaderboard does not use scoreentry numbers for it's numbers. Basically the only thing you can do is to add a frame or background around the whole leaderboard. Like this:
 
-![](https://puu.sh/DIC3c/9af3e779db.png)
+<details><summary>Image</summary>
 
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/leaderboard_bg.png)
+
+</details>
 
 You can do this by adding it onto mode-osu-small. the placement can be found on the song selection template.
 
-Mode-Osu@2x (and mode-fruits, -taiko and -mania) can be found between the leaderboard and the song caroussel. It shows the current gamemode you are playing. Most people either blank it out or leave it as it is. But there are some gimmicky things that can be done with it. The afformentioned frame on the leaderboard can be done with it aswell and you can add some nice effects to the song selection, like [this](https://puu.sh/DJ3aL/f39d77b1b3.png) one (the big bright triangle part). 
+Mode-Osu@2x (and mode-fruits, -taiko and -mania) can be found between the leaderboard and the song caroussel. It shows the current gamemode you are playing. Most people either blank it out or leave it as it is. But there are some gimmicky things that can be done with it. The afformentioned frame on the leaderboard can be done with it aswell and you can add some background effects to the song selection.
 
-The last thing I need to mention are the small ranking letters. They get shared between the song caroussel and the leaderboard. They have different anchor points on both. It can be a real nightmare if your font isn't monospaced (fixed-width) it can be a real nightmare to align them properly, because if you align them to the letters to the left, they will look weird on the leaderboard. But the opposite can happen if you allign them to the center. Thats one of the reason why I would recommend a monospaced font for the ranking letters.
+The last thing I need to mention are the small ranking letters. They get shared between the song caroussel and the leaderboard. They have different anchor points on both. If your font isn't monospaced (fixed-width) it can be a real nightmare to align them properly, because if you align them to the letters to the left, they will look weird on the leaderboard. But the opposite can happen if you allign them to the center. Thats one of the reason why I would recommend a monospaced font for the ranking letters.
 
-## Mode Selection
-There are 3 general styles for the mode selection. Icons only, complete box and fullscreen.
+# Mode Selection
+There are three main styles for the mode selection. Icons only, complete box and fullscreen, or a combination of those. You can also live some sort of window in the mode-selection, since the 4 options will get tinted purple when hovered over, which would be visible trough some sort of window. 
 
+<details><summary>Image</summary>
 
-![](https://puu.sh/DIFoJ/112c740682.png)
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/mode_selection_styles.png)
 
+</details>
 
-![](https://puu.sh/DIFpd/cba285877e.png)
-
-
-![](https://puu.sh/DIFpr/5911bc5f50.png)
-
-
-There are three ways of skinning the mode selection. You can split it all up into their files, blank out 3 of them and use one, or put the background and the catch icon onto mode-fruits-med and put the remaining icons onto their respective images. I would recommend the first approach if you plan to just skin the icons and if you plan to do a fullscreen one I would recommend to use the second or third approach.
-
-![](https://puu.sh/DIFrZ/2da0b2f55a.png)
-
-
+There are two ways of skinning the mode selection. You can split it all up into their files or blank out 3 of them and use one for everything. 
 I recommend using this template, made by [Galvit](https://osu.ppy.sh/users/7629682) if you plan to go with only one file.
+
+<details><summary>Image</summary>
+
+![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/img/song_selection/mode_selection_template.png)
+
+</details>
