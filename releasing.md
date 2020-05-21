@@ -3,6 +3,8 @@ layout: page
 title: Releasing
 ---
 
+to add: 16:9 to 16:10 conversion
+
 # Releasing Your Skin
 There are two main places to release your skin, [the skinning forum](https://osu.ppy.sh/forum/15) and [the skinning subreddit](https://www.reddit.com/r/OsuSkins/). Make sure to read the rules of the skinning forum **before** you post your skin. The major difference between the forum and the subreddit is, that the forum forbids every kind of mixed skins (besides stealing sounds, thats the only thing that is allowed) and NSFW content (this refers to skins, links to image sources and everything else!), while the subreddit allows those. 
 There are a few things you should do when posting your skin:
