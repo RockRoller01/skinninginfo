@@ -71,7 +71,7 @@ Images that, for example, have their anchor point set as bottom left can't exten
 
 <details><summary>Image</summary>
 
-![](/img/introduction/different_origin_points.png)
+![](./img/introduction/different_origin_points.png)
 
 </details>
 
