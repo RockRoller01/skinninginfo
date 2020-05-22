@@ -1,8 +1,11 @@
+*{
+    box-sizing: border-box;
+}
 :root{
     --link: #0CA4D6;
     --link-hover: #26C9FF;
     --line: #0CA4D6;
-    --background: #0a3e4c;
+    --background: #042f3a;
     --text: white;
     --dark-background: #001A22;
     --content-width: 1200px;
@@ -78,11 +81,9 @@ hr{
 /* navigation bar */
 .navbar{
     overflow: hidden;
-    background-color: var(--background);
     position: fixed;
     top: 0;
     width: 100%;
-    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.15);
     font-weight: 700;
     display: flex;
     justify-content: center;
@@ -97,9 +98,14 @@ hr{
     transition: 200ms ease all;
 }
 .navbar a:hover{
-    background: var(--dark-background);
+    background: rgba(0,0,0,0.3);
     color: var(--text);
 }
 .navbar > .content{
     max-width: var(--content-width);
+    flex: 1;
+    background-color: var(--background);
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.15);
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
 }
