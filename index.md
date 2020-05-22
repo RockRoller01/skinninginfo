@@ -3,4 +3,4 @@ layout: default
 title: Home
 ---
 
-just a site with usefull info regarding osu! skinning.
+just a site with useful info regarding osu! skinning.
