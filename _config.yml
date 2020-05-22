@@ -2,7 +2,5 @@ title: Skinning Tutorial
 
 baseurl: "/skinninginfo"
 
-theme: jekyll-theme-midnight
-
 exclude:
 - README.md
