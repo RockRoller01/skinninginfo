@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Creating your Personal Mixed Skin
 ---
 
