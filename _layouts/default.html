@@ -9,14 +9,14 @@
 
 <body>
 <header>
-    <nav>
-        <ul>
-            <li><a href="{{site.baseurl}}/">Home</a></li>
-            <li><a href="{{site.baseurl}}/tutorial/toc">Tutorial</a></li>
-            <li><a href="{{site.baseurl}}/guides/toc">Guides</a></li>
-        </ul>
-    </nav>
+    <div class="navbar">
+      <a href="{{site.baseurl}}/">Home</a>
+      <a href="{{site.baseurl}}/tutorial/toc">Tutorial</a>
+      <a href="{{site.baseurl}}/guides/toc">Guides</a>
+    </div>
 </header>
+  <div class="main">
   {{ content }}
+</div>
 </body>
 </html>

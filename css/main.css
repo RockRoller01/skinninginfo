@@ -1,23 +1,48 @@
 body{
     background-color: #0E2831;
     color: #ffffff;
-    margin-left: 20%;
-    margin-right: 20%;
 }
 a{
     color: #3CA4C1;
+    text-decoration: none;
 }
 a:hover, a:focus, a:active{
     color: #0EB5E3;
 }
-nav ul{
-    color: #3CA4C1;
-    list-style: none;
-    padding: 0px;
-}
-nav ul li{
-    display: inline;
-}
 hr{
     color: #3CA4C1;
 }
+
+.navbar{
+    overflow: hidden;
+    background-color: #0E2831;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: #3CA4C1;
+}
+  
+  /* Links inside the navbar */
+.navbar a{
+    float: left;
+    display: block;
+    color: #3CA4C1;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+
+.navbar a:hover {
+    background: #0a1d24;
+    color: #0EB5E3;
+}
+  
+  /* Main content */
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-left: 20%;
+    margin-right: 20%;
+} 

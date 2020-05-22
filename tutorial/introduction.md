@@ -11,6 +11,7 @@ You will need an image editor that supports transparency and, optionally, an aud
     - [Paint.NET](https://www.getPaint.NET/) (free)
     - [GIMP](https://www.gimp.org/) (free)
     - [PhotoShop](https://www.adobe.com/products/photoshop.html) (paid)
+
 - Audio Editors
     - [Audacity](https://www.audacityteam.org/) (free)
     - [FL Studio](https://www.image-line.com/flstudio/) (free/paid)
