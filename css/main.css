@@ -40,5 +40,5 @@ hr{
     margin-right: 20%;
 }
 details{
-    cursor:default;
+    cursor: pointer;
 }
