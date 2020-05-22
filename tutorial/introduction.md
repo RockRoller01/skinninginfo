@@ -71,7 +71,7 @@ Images that, for example, have their anchor point set as bottom left can't exten
 
 <details><summary>Image</summary>
 
-![](https://rockroller01.github.io/skinninginfo/tutorial/img/introduction/different_origin_points.png)
+<img src="img/introduction/different_origin_points.png" />
 
 </details>
 
