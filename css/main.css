@@ -42,7 +42,7 @@ hr{
   
   /* Main content */
 .main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+    margin-top: 60px; /* Add a top margin to avoid content overlay */
     margin-left: 20%;
     margin-right: 20%;
 } 
