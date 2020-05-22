@@ -79,7 +79,7 @@ hr{
     width: 100%;
     border-bottom: solid;
     border-width: 2px;
-    border-color: var(--line);
+    border-color: var(--dark-background);
 }
 .navbar a{
     float: left;
