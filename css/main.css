@@ -20,7 +20,7 @@ body{
     margin-left: 20%;
     margin-right: 20%;
     background-color: var(--background);
-    padding: 24px;
+    padding: 32px;
     border-style: solid;
     border-color: var(--background);
     border-width: 1px;
@@ -59,6 +59,8 @@ h1{
     border-width: 2px;
     border-color: var(--dark-background);
     font-size: 40px;
+    line-height: 34px;
+    padding-bottom: 12px;
 }
 h1:first-child{
     margin-top: 0px;
@@ -77,9 +79,8 @@ hr{
     position: fixed;
     top: 0;
     width: 100%;
-    border-bottom: solid;
-    border-width: 2px;
-    border-color: var(--dark-background);
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.15);
+    font-weight: 700;
 }
 .navbar a{
     float: left;
