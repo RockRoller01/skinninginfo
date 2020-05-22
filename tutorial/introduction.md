@@ -48,7 +48,6 @@ There are HD and SD elements. HD elements have the suffix "@2x" and are exactly 
 
 <img src="img/introduction/SD_vs_HD.png" style="width:50%">
 
-The left is an SD image, the right a HD one.
 </details>
 
 It's highly recommended to skin in HD, because it will look a lot sharper ingame and you can easily convert them to SD. **Please note that the skinnable files list only shows both SD and HD sizes!** It's important to note that HD images are only used by osu if it runs with atleast 800px height, however, if no HD image is present for a file it will use SD image instead if available.
