@@ -1,10 +1,10 @@
 :root{
-    --link: #3CA4C1;
-    --link-hover: #00C5FF;
-    --line: #3CA4C1;
+    --link: #0CA4D6;
+    --link-hover: #26C9FF;
+    --line: #0CA4D6;
     --background: #112830;
-    --text: #FFFFFF;
-    --dark-background: #0C1C22;
+    --text: white;
+    --dark-background: #001A22;
 }
 
 body{
@@ -26,6 +26,7 @@ body{
     border-width: 1px;
     border-radius: 8px;
     line-height: 1.3;
+    min-height: calc(100vh - 64px*3 - 50px);
 }
 .main ul{
     list-style-type: disc;
