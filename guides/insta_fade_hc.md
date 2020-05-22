@@ -10,7 +10,7 @@ If you do not know what instant fading hitcircles are I recommend you to watch [
 - Your Hitcircle Numbers will look weird at combos of above 9, which is why it is recommended to use dots instead of numbers, but it is not required.
 - You are limited to a single combo colour.
 
-# 
+***
 
 1. Upscale your hitcircle and hitcircleoverlay by 1.25 times.
 2. Tint the hitcircle with a combo color of your choice.

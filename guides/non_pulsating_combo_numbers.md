@@ -10,6 +10,6 @@ If you do not know what non-pulsating combo numbers are I recommend you to watch
 - On background-dim levels below 100% you will still be able to kind of see the pulsating still, but instead of the numbers you will see a black box pulsating. It is recommended to only use this gimmick with 100% background-dim.
 - This gimmick is not compatible with skins that cover multiple game modes. You can only use this if your skin is for standard only.
 
-# 
+***
 
 1. add steps here
