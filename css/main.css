@@ -1,0 +1,22 @@
+body{
+    background-color: #0E2831;
+    width: 60%;
+    color: #ffffff;
+}
+a{
+    color: #3CA4C1;
+}
+a:hover, a:focus, a:active{
+    color: #0EB5E3;
+}
+nav ul{
+    color: #3CA4C1;
+    list-style: none;
+    padding: 0px;
+}
+nav ul li{
+    display: inline;
+}
+hr{
+    color: #3CA4C1;
+}
