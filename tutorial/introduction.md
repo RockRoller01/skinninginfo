@@ -43,12 +43,12 @@ Once you have your theme you should think of a concept. Just starting without an
 ## HD/SD elements, Aspect Ratios and Resolution
 There are HD and SD elements. HD elements have the suffix "@2x" and are exactly double the size of the SD image. If an image is e.g. 128x128 in SD, then it will be 256x256 in HD. 
 
-<details><summary>Image</summary>
+
 
 ![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/introduction/SD_vs_HD.png)
 
 The left is an SD image, the right a HD one.
-</details>
+
 
 It's highly recommended to skin in HD, because it will look a lot sharper ingame and you can easily convert them to SD. **Please note that the skinnable files list only shows both SD and HD sizes!** It's important to note that HD images are only used by osu if it runs with atleast 800px height, however, if no HD image is present for a file it will use SD image instead if available.
 
