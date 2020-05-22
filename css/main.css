@@ -1,16 +1,26 @@
+:root{
+    --main: ;
+    --link: #3CA4C1;
+    --link-hover: #0EB5E3;
+    --line: #3CA4C1;
+    --background: #0E2831;
+    --text: #FFFFFF;
+}
 body{
-    background-color: #0E2831;
-    color: #ffffff;
+    background-color: var(--background);
+    color: var(--text);
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 a{
-    color: #3CA4C1;
+    color: var(--link);
     text-decoration: none;
 }
 a:hover, a:focus, a:active{
-    color: #0EB5E3;
+    color: var(--link-hover);
 }
 hr{
-    color: #3CA4C1;
+    color: var(--line);
 }
 .navbar{
     overflow: hidden;
@@ -20,19 +30,19 @@ hr{
     width: 100%;
     border-bottom: solid;
     border-width: 2px;
-    border-color: #3CA4C1;
+    border-color: var(--line);
 }
 .navbar a{
     float: left;
     display: block;
-    color: #3CA4C1;
+    color: var(--link);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 .navbar a:hover {
     background: #0a1d24;
-    color: #0EB5E3;
+    color: var(--link-hover);
 }  
 .main {
     margin-top: 60px;
