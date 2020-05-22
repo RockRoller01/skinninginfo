@@ -4,11 +4,11 @@ title: Tutorial
 ---
 
 # Skinning Tutorial
-- [Introduction](./tutorial/introduction.html)
-- [Getting Started](./tutorial/getting_started.html)<br>
+- [Introduction](./introduction.html)
+- [Getting Started](./getting_started.html)<br>
 Menus
-    - [Song Selection](./tutorial/song_selection.html)
-    - [Ranking Panel](./tutorial/ranking_panel.html)
-    - [Mod Icons](./tutorial/mod_icons.html)
-    - [Pause- and Failscreen](./tutorial/pause-_and_failscreen.html)
-- [Releasing your Skin](./tutorial/releasing.html)
+    - [Song Selection](./song_selection.html)
+    - [Ranking Panel](./ranking_panel.html)
+    - [Mod Icons](./mod_icons.html)
+    - [Pause- and Failscreen](./pause-_and_failscreen.html)
+- [Releasing your Skin](./releasing.html)
