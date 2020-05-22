@@ -1,15 +1,15 @@
 :root{
-    --main: ;
     --link: #3CA4C1;
-    --link-hover: #0EB5E3;
+    --link-hover: #00C5FF;
     --line: #3CA4C1;
-    --background: #0E2831;
+    --background: #112830;
     --text: #FFFFFF;
+    --dark-background: #0C1C22;
 }
 body{
-    background-color: var(--background);
+    background-color: var(--dark-background);
     color: var(--text);
-    margin: 0;
+    margin: 0 0 100px;
     font-family: 'Inter', sans-serif;
 }
 a{
@@ -18,13 +18,14 @@ a{
 }
 a:hover, a:focus, a:active{
     color: var(--link-hover);
+    text-decoration: underline;
 }
 hr{
-    color: var(--line);
+    color: var(--dark-background);
 }
 .navbar{
     overflow: hidden;
-    background-color: #0E2831;
+    background-color: var(--background);
     position: fixed;
     top: 0;
     width: 100%;
@@ -40,15 +41,40 @@ hr{
     padding: 14px 16px;
     text-decoration: none;
 }
-.navbar a:hover {
-    background: #0a1d24;
-    color: var(--link-hover);
-}  
-.main {
+.navbar a:hover{
+    background: var(--dark-background);
+    color: var(--text);
+}
+.main{
     margin-top: 60px;
     margin-left: 20%;
     margin-right: 20%;
+    background-color: var(--background);
+    padding: 0px 20px;
+    border-style: solid;
+    border-color: var(--line);
+    border-width: 1px;
+    border-radius: 16px;
 }
-details{
+.main ul{
+    list-style-type: disc;
+}
+details > summary{
     cursor: pointer;
+    background: var(--dark-background);
+    border-radius: 6px;
+    padding: 2px 6px;
+    width: 70px;
+}
+strong{
+    font-weight: 800;
+}
+h1{
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: var(--dark-background);
+    font-size: 40px;
+}
+h2{
+    font-size: 32px;
 }
