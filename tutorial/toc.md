@@ -5,7 +5,7 @@ title: Tutorial
 
 # Skinning Tutorial
 - [Introduction](./tutorial/introduction.html)
-- [Getting Started](./tutorial/getting_started.html)\
+- [Getting Started](./tutorial/getting_started.html)<br>
 Menus
     - [Song Selection](./tutorial/song_selection.html)
     - [Ranking Panel](./tutorial/ranking_panel.html)
