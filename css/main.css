@@ -2,7 +2,7 @@
     --link: #0CA4D6;
     --link-hover: #26C9FF;
     --line: #0CA4D6;
-    --background: #112830;
+    --background: #0a3e4c;
     --text: white;
     --dark-background: #001A22;
 }
@@ -10,8 +10,8 @@
 body{
     background-color: var(--dark-background);
     color: var(--text);
-    margin: 0 0 100px;
     font-family: 'Inter', sans-serif;
+    margin: 0;
 }
 
 /* content */
@@ -19,6 +19,7 @@ body{
     margin-top: calc(50px + 64px);
     margin-left: 20%;
     margin-right: 20%;
+    margin-bottom: 64px;
     background-color: var(--background);
     padding: 32px;
     border-style: solid;
@@ -26,7 +27,7 @@ body{
     border-width: 1px;
     border-radius: 8px;
     line-height: 1.3;
-    min-height: calc(100vh - 64px*3 - 50px);
+    min-height: calc(100vh - 64px*3 - 54px);
 }
 .main ul{
     list-style-type: disc;
@@ -90,6 +91,7 @@ hr{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    transition: 200ms ease all;
 }
 .navbar a:hover{
     background: var(--dark-background);
