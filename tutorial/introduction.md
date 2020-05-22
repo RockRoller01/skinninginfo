@@ -45,7 +45,7 @@ There are HD and SD elements. HD elements have the suffix "@2x" and are exactly 
 
 <details><summary>Image</summary> 
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/introduction/SD_vs_HD.png)
+<img src="img/introduction/SD_vs_HD.png" style="width:100%">
 
 The left is an SD image, the right a HD one.
 </details>
@@ -63,7 +63,7 @@ Every element in osu! has an anchor point, which is listed in the skinnable file
 
 <details><summary>Image</summary>
 
-![](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/introduction/origin_points.png)
+<img src="introduction/origin_points.png" alt="Visualization of orign points" style="width:100%">
 
 </details>
 
@@ -71,7 +71,7 @@ Images that, for example, have their anchor point set as bottom left can't exten
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/different_origin_points.png" />
+<img src="img/introduction/different_origin_points.png" alt="Visualization of bottom left origin points" style="width:100%" />
 
 </details>
 
