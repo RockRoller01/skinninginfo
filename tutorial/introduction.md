@@ -45,7 +45,7 @@ There are HD and SD elements. HD elements have the suffix "@2x" and are exactly 
 
 <details><summary>Image</summary> 
 
-<img src="img/introduction/SD_vs_HD.png" style="width:100%">
+<img src="img/introduction/SD_vs_HD.png" style="width:50%">
 
 The left is an SD image, the right a HD one.
 </details>
@@ -63,7 +63,7 @@ Every element in osu! has an anchor point, which is listed in the skinnable file
 
 <details><summary>Image</summary>
 
-<img src="introduction/origin_points.png" alt="Visualization of orign points" style="width:100%">
+<img src="img/introduction/origin_points.png" alt="Visualization of origin points" style="width:100%">
 
 </details>
 
