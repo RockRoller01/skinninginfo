@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Creating Instant Fading Hitcircles
+title: Creating Instant Fading HitCircles
 ---
 
-# Creating Instant Fading Hitcircles
+# Creating Instant Fading HitCircles
 This guide will teach you how to convert hitcircles into instant fading ones. You should know what SD and HD images are, if you don't, please read [this part](https://rockroller01.github.io/skinninginfo/tutorial/introduction.html#hdsd-elements-aspect-ratios-and-resolution) of the skinning tutorial.
 
 If you do not know what instant fading hitcircles are I recommend you to watch [this short 7 seconds video](https://www.youtube.com/watch?v=C2b8PEHarvM). The benefit of instant fading hitcircles is obvious, you don't get the fade-out animation of the hitcircle, leaving you with less clutter. However, there are a few drawbacks:

@@ -3,7 +3,7 @@ layout: default
 title: Using Dots for HitCircle Numbers
 ---
 
-# Creating Instant Fading Hitcircles
+# Creating Instant Fading HitCircles
 This guide will teach you how to use dots for your hitcircle numbers. You should know what SD and HD images are, if you don't, please read [this part](https://rockroller01.github.io/skinninginfo/tutorial/introduction.html#hdsd-elements-aspect-ratios-and-resolution) of the skinning tutorial.
 
 ***
