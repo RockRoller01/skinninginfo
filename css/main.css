@@ -88,9 +88,10 @@ hr{
 }
 .navbar a{
     float: left;
-    display: block;
+    display: inline-flex;
     color: var(--link);
     text-align: center;
+    align-items: center;
     padding: 14px 16px;
     text-decoration: none;
     transition: 200ms ease all;
@@ -109,6 +110,8 @@ hr{
 }
 
 /* Icons */
-.github{
-   max-height: 16px; 
+.icon{
+   width: 16px;
+   margin-right: 8px;
+   fill: var(--link)
 }
