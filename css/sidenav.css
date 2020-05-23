@@ -9,14 +9,14 @@
 }
 .sidenav{
     height: 100%;
-    width: 160px;
+    width: auto;
     position: fixed;
     top: 0;
     left:0;
     background-color: var(--background);
     overflow-x: hidden;
     padding: 16px;
-    border-radius: 8px
+    border-radius: 0 8px 0 8px
 }
 .sidenav a{
     text-decoration: none;
@@ -25,4 +25,7 @@
 }
 .sidenav a:hover, .sidenav a:focus, .sidenav a:active{
     color: var(--text);
+}
+.sidenav h1{
+    padding: 0 16px;
 }
