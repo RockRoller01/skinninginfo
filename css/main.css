@@ -10,7 +10,6 @@
     --dark-background: #001A22;
     --content-width: 1200px;
 }
-
 body{
     background-color: var(--dark-background);
     color: var(--text);
