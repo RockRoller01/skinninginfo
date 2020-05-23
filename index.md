@@ -10,7 +10,7 @@ You most likely got here by following the [forum post](https://osu.ppy.sh/commun
 This site is a collection of information related to osu! skinning. It is maintained by me, [RockRoller](https://osu.ppy.sh/users/8388854). The navigation bar at the top should lead you to everything you could want.<br>
 If you encounter any problems with the site or any mistakes within its content please go to the github repository of this site and open an Issue, but please make sure that there is no issue allready for your problem.
 
-If you need any additional help with anything skinning related, feel free to aks on the forums, contact me directly via the forums or discord: RockRoller#1909 or join the [skinship discord server](https://discord.gg/q8Z5JXM).
+If you need any additional help with anything skinning related, feel free to ask on the forums, contact me directly via the forums or discord: RockRoller#1909 or join the [skinship discord server](https://discord.gg/q8Z5JXM).
 If you want to contribute to this site, please contact me via discord or the forums aswell. Just opening a pull request without contacting me first may lead to wasted time, I don't upload all work in progress articles.
 
 Thanks to all these people that helped me get this site up and running:<br>
