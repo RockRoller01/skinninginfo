@@ -1,0 +1,28 @@
+:root{
+    --link: #0CA4D6;
+    --link-hover: #26C9FF;
+    --line: #0CA4D6;
+    --background: #042f3a;
+    --text: white;
+    --dark-background: #001A22;
+    --content-width: 1200px;
+}
+.sidenav{
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: var(--background);
+    overflow-x: hidden;
+    padding: 16px;
+    border-radius: 8px
+}
+.sidenav a{
+    text-decoration: none;
+    color: var(--link);
+    display: block;
+}
+.sidenav a:hover, .sidenav a:focus, .sidenav a:active{
+    color: var(--text);
+}
