@@ -9,6 +9,11 @@
     --text: white;
     --dark-background: #001A22;
     --content-width: 1200px;
+
+    /* if the sidenav's width is going to be set manually,
+     * change this value to adjust header's positioning too
+     */
+    --tutorial-sidenav-width: 200px;
 }
 body{
     background-color: var(--dark-background);
@@ -17,10 +22,16 @@ body{
     margin: 0;
 }
 
+/* container */
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
 /* content */
 .main{
+    flex-grow: 1;
     margin: auto;
-    margin-top: calc(50px + 64px);
     margin-bottom: 64px;
     background-color: var(--background);
     padding: 32px;
@@ -77,11 +88,16 @@ hr{
     color: var(--dark-background);
 }
 
-/* navigation bar */
-.navbar{
-    position: fixed;
+/* header and navigation bar */
+.header {
+    position: sticky;
     top: 0;
-    width: 100%;
+    margin-bottom: 16px;
+}
+.header.tutorial {
+    margin-left: var(--tutorial-sidenav-width);
+}
+.navbar {
     font-weight: 700;
     display: flex;
     justify-content: center;
