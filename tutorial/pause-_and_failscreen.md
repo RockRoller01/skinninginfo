@@ -1,5 +1,5 @@
 ---
-layout: sidenav
+layout: tutorial-sidenav
 title: Pause- and Failscreen
 ---
 
