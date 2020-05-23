@@ -10,7 +10,7 @@ There are a few things you should do when posting your skin:
 - Use [BBCode](https://osu.ppy.sh/help/wiki/BBCode) to format your post. Use Markdown or reddits editor if you post on the subreddit.
 - Either add a spoiler box and embed screenshots of the skin by using the [img][/img] tag or add a link to an imgur album that contains all screenshots.
 - You can make images that lead to sites by nesting an img tag inside of a url one.
-    - [url=URL HERE][img]IMG URL HERE[/img][/url]
+    - ``[url=URL HERE][img]IMG URL HERE[/img][/url]``
 - Upload your skin to a reliable filehoster, such as mediafire, mega or google drive. Note that you should not use mediafire for skins with high file sizes, it has a very limited download speed. Under no circumstances use pu.ush or a similar service. Pu.ush deleted files if they are not frequently accessed, which is the reason why a lot of skins on the forum do not have a working download link anymore. Make sure to make a backup of your skin on another filehoster, in case the host you used stops its service or deletes the file for some reason.
 - Make some fancy banner. It may sound stupid, but it really helps your post to stand out.
 - Make sure that your skin does not contain any parts from another skin (besides sounds) when posting in the skinning forum. This isn't a rule on the subreddit, but it always is appreciated if your skin if truly originally.

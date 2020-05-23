@@ -42,7 +42,7 @@ Once you have your theme you should think of a concept. Just starting without an
 - Anime skins: Images of the character you want to theme it around (You're better off searching for renders on the internet if you're not experienced, but don't worry, you will learn how to render images yourself later on.)
 
 ## HD/SD elements, Aspect Ratios and Resolution
-There are HD and SD elements. HD elements have the suffix "@2x" and are exactly double the size of the SD image. If an image is e.g. 128x128 in SD, then it will be 256x256 in HD. 
+There are HD and SD elements. HD elements have the suffix ``@2x`` and are exactly double the size of the SD image. If an image is e.g. 128x128 in SD, then it will be 256x256 in HD. 
 
 <details><summary>Image</summary> 
 
@@ -52,7 +52,7 @@ There are HD and SD elements. HD elements have the suffix "@2x" and are exactly 
 
 It's highly recommended to skin in HD, because it will look a lot sharper in game and you can easily convert them to SD. **Please note that the skinnable files list only shows both SD and HD sizes!** It's important to note that HD images are only used by osu if it runs with at least 800px height, however, if no HD image is present for a file it will use SD image instead if available.
 
-There is a way to force osu to use HD elements, even if your resolution is below 800px. Open your osu!.PCUSERNAME.cfg (found in the root of your osu! folder) and set **HighResolution: 1**. This may increase the load on weaker systems, but you can always set this back to 0 if you feel like it affects your performance while playing.
+There is a way to force osu to use HD elements, even if your resolution is below 800px. Open your ``osu!.PCUSERNAME.cfg`` (found in the root of your osu! folder) and set ``HighResolution: 1``. This may increase the load on weaker systems, but you can always set this back to ``0`` if you feel like it affects your performance while playing.
 
 A common mistake is to skin in SD and then upscale the image to HD afterwards. **Do not do this.** There is no reason to do this, because you won't increase the image quality by upscaling. You should create the HD elements first and then downscale them to SD. Though, this can become annoying, especially if you have your skin finished and you need to downscale 200+ images, that's why there are programs that will do the downscaling for you, e.g. [Image Scaler](https://osu.ppy.sh/forum/t/762684) by [Roan](https://osu.ppy.sh/users/8214639).
 
@@ -78,7 +78,7 @@ Images that, for example, have their anchor point set as bottom left can't exten
 ## General Tips
 Last but not least, a few general tips. Some of these things may seem mundane, but some of you might not know about these.
 
-- Whenever you make changes to your skin, you will need to reload it to see the changes. The skin will be automatically reloaded when restarting, but you can do it manually by going into the skin section in the options and changing your skin, or you could simply use the shortcut CTRL + ALT + SHIFT + S to reload your skin. I recommend you make a macro for this if you can. Using the shortcut also reloads the skins list, so if you add a new folder to osu!/skins/ it will be recognized without having to restart the game.
+- Whenever you make changes to your skin, you will need to reload it to see the changes. The skin will be automatically reloaded when restarting, but you can do it manually by going into the skin section in the options and changing your skin, or you could simply use the shortcut ``CTRL`` + ``ALT`` + ``SHIFT`` + ``S`` to reload your skin. I recommend you make a macro for this if you can. Using the shortcut also reloads the skins list, so if you add a new folder to osu!/skins/ it will be recognized without having to restart the game.
 - Work with layers, they make your life a lot easier. When I started I didn't know those existed and it was a pain to create anything. Don't do the same mistake.
 - **Always** save your project files!
 - Different elements have different blend modes and different origin points. These two things will always be listed on the skinnable files list.

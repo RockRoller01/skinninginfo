@@ -27,13 +27,13 @@ It's made out of several parts, which are:
 # Bottom Part
 Let us start with the bottom part. It consists out of the following images: 
 
-- menu-back@2x.png
-- selection-mode@2x.png, selection-mods@2x.png, selection-random@2x.png, selection-options@2x.png
-- selection-mode-over@2x.png, selection-mods-over@2x.png, selection-random-over@2x.png, selection-options-over@2x.png
-- mode-osu-small@2x.png, mode-fruits-small@2x.png, mode-taiko-small@2x.png, mode-mania-small@2x.png
+- ``menu-back@2x.png``
+- ``selection-mode@2x.png``, ``selection-mods@2x.png``, ``selection-random@2x.png``, ``selection-options@2x.png``
+- ``selection-mode-over@2x.png``, ``selection-mods-over@2x.png``, ``selection-random-over@2x.png``, ``selection-options-over@2x.png``
+- ``mode-osu-small@2x.png``, ``mode-fruits-small@2x.png``, ``mode-taiko-small@2x.png``, ``mode-mania-small@2x.png``
 
 But what do they all do?
-menu-back and selection-mode/mods/random/options are the buttons on the left, the -over images are the ones that get shown when you hover over the buttons (although, the back button doesn't have one, it only gets a bit brighter) and the mode-osu/fruits/taiko/mania-small images are the small mode indicators, shown on top of selection-mode.
+``menu-back`` and ``selection-mode/mods/random/options`` are the buttons on the left, the ``-over`` images are the ones that get shown when you hover over the buttons (although, the back button doesn't have one, it only gets a bit brighter) and the ``mode-osu/fruits/taiko/mania-small`` images are the small mode indicators, shown on top of ``selection-mode``.
 There are many ways of designing the song selection, it's totally up to you. Generally though, there are 4 main ways of shaping the bottom part:
 
 <details><summary>Image</summary>
@@ -45,7 +45,7 @@ There are many ways of designing the song selection, it's totally up to you. Gen
 There aren't that many things you need to know to get either of these 4 results.
 Whenever you work with the song selection, [this template](https://osu.ppy.sh/community/forums/topics/686407) will be of huge help. On there is everything that the song selection contains, with its standard sizes. You basically just need to trace over it, and then, after you're finished, cut everything into their respective images.
 
-There are a few things you can do with the bottom part that goes beyond the intended image sizes. The two main things are a height change and a shape change. The default bottom part is only 180px high, but you can make it higher. All of the buttons have their anchor points at their bottom left corner, meaning they can be extended all the way up to the upper screen border. BUT, there are two things you need to be aware of when doing this. First, if you go too high you might cover the leaderboards or beatmaps. You can extend the bottom part up to roughly ~220px (shown below), without covering anything.
+There are a few things you can do with the bottom part that goes beyond the intended image sizes. The two main things are a height change and a shape change. The default bottom part is only 180px high, but you can make it higher. All of the buttons have their anchor points at their bottom left corner, meaning they can be extended all the way up to the upper screen border. **But**, there are two things you need to be aware of when doing this. First, if you go too high you might cover the leaderboards or beatmaps. You can extend the bottom part up to roughly ~220px (shown below), without covering anything.
 
 <details><summary>Image</summary>
 
@@ -61,7 +61,7 @@ You could also only have certain parts go above 180px, especially in the middle 
 
 </details>
 
-The second thing you need to look out for are hitboxes. The hitbox of the buttons is defined by the size of their -over images, meaning it won't be a problem for selection-mode/mods/random/options, but menu-back doesn't have an -over image. The hitbox of it is defined by the size of the button itself. This is the reason why you can't make it too big, because then you might not be able to click your own topscore on the leaderboard. (The maximum size for menu-back (HD) that I would recommend is something around 220px x 500px)
+The second thing you need to look out for are hitboxes. The hitbox of the buttons is defined by the size of their ``-over`` images, meaning it won't be a problem for ``selection-mode/mods/random/options``, but ``menu-back`` doesn't have an ``-over`` image. The hitbox of it is defined by the size of the button itself. This is the reason why you can't make it too big, because then you might not be able to click your own topscore on the leaderboard. (The maximum size for menu-back (HD) that I would recommend is something around 220px x 500px)
 
 The other thing I mentioned that you can do with the bottom part was changing the shape. This is basically just the same thing as a height increase, you just increase it only in certain parts.
 
@@ -96,7 +96,7 @@ For the elements you simply have to cover the default ones. This allows you to a
 </details>
 
 # Top part
-Now onto the top part. This one often is a bigger problem for beginners, but it shouldn't be that hard to understand if you read carefully. The top part only has one editable file, selection-tab@2x, which is used for the sorting tabs you can see in the top right with the grouping/sorting options. They get tinted red when they are inactive and white when they are active, while the text gets tinted white while being inactive and black while being active. If you want to blank them out do not make them 1 x 1 pixels big, their size defines the hitbox. Also, if your selection-tab is black or completely transparent, the text on it will not be visible while its selected. There are 3 main things you can do with the top part:
+Now onto the top part. This one often is a bigger problem for beginners, but it shouldn't be that hard to understand if you read carefully. The top part only has one editable file, ``selection-tab@2x``, which is used for the sorting tabs you can see in the top right with the grouping/sorting options. They get tinted red when they are inactive and white when they are active, while the text gets tinted white while being inactive and black while being active. If you want to blank them out do not make them 1 x 1 pixels big, their size defines the hitbox. Also, if your selection-tab is black or completely transparent, the text on it will not be visible while its selected. There are 3 main things you can do with the top part:
 
 <details><summary>Image</summary>
 
@@ -105,9 +105,9 @@ Now onto the top part. This one often is a bigger problem for beginners, but it 
 </details>
 
 
-You can colour the outline, you can add a background and you can change the shape. The top part isn't directly editable, the file for it is not skinnable. Meaning we will need a workaround. To change the colour of the outline and add a background all we need is the mode-x-small elements (abbreviation for mode-osu-small, mode-fruits-small, mode-taiko-small, mode-mania-small). The important factor is that it is in additive blend mode and doesn't have a size restriction.
+You can colour the outline, you can add a background and you can change the shape. The top part isn't directly editable, the file for it is not skinnable. Meaning we will need a workaround. To change the colour of the outline and add a background all we need is the ``mode-x-small`` elements (abbreviation for mode-osu-small, mode-fruits-small, mode-taiko-small, mode-mania-small). The important factor is that it is in additive blend mode and doesn't have a size restriction.
 
-To change the colour we basically only need to do a small subtraction to get the colour we want (or at least the closest one to it). All you need to do to change the colour of the topline is to take [this file](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_outline.png and change its colour. You can't however change it to directly the colour you want the line to be. The blend mode of the mode-x-small images comes into play here. Due to the additive blend mode it's colour values will always be added onto the top line instead of just covering it. This results in a limitation regarding the colour the top line can be. Any colour that has lower RGB values than the blue of the line (which is 49, 94, 237) can not be achieved. Here is a quick overview of the colours that can be achieved:
+To change the colour we basically only need to do a small subtraction to get the colour we want (or at least the closest one to it). All you need to do to change the colour of the topline is to take [this file](https://raw.githubusercontent.com/RockRoller01/skinninginfo/master/tutorial/img/song_selection/toppart_outline.png and change its colour. You can't however change it to directly the colour you want the line to be. The blend mode of the ``mode-x-small`` images comes into play here. Due to the additive blend mode it's colour values will always be added onto the top line instead of just covering it. This results in a limitation regarding the colour the top line can be. Any colour that has lower RGB values than the blue of the line (which is 49, 94, 237) can not be achieved. Here is a quick overview of the colours that can be achieved:
 
 <details><summary>Image</summary>
 
@@ -129,7 +129,7 @@ If you want, for example, a light blue colour (78, 216, 247) the top bar should 
 
 </details>
 
-The next thing would be to add a background to the mode-x-small. This isn't that hard, all you need to do is to have your layer with the outline and below it a layer with the background. We don't really have any restrictions for the background, thanks to the background of the default top part being black. There are however a few things you should look out for. If the background is too bright you will have a hard time reading any of the song information.
+The next thing would be to add a background to the ``mode-x-small``. This isn't that hard, all you need to do is to have your layer with the outline and below it a layer with the background. We don't really have any restrictions for the background, thanks to the background of the default top part being black. There are however a few things you should look out for. If the background is too bright you will have a hard time reading any of the song information.
 
 <details><summary>Image</summary>
 
@@ -145,8 +145,8 @@ To counter this you either will have to choose something else for the background
 
 </details>
 
-The last basic thing we can do with the top part is to change its shape. The only two elements that cover the whole screen are menu-back and mode-x-small. The problem with the mode-x-smalls is that they are in additive blend mode, they won't be able to cover the top part properly, but we will be still using them for something else. And menu-back's hitbox is defined by it's size, so if you made it cover the whole screen, the whole screen will become the back button. The element we will use is selection-mode. It is placed 448px (HD) from the left screen border, meaning we will only be able to form the shape from the 449th pixel onward. Selection-mode should only contain a black shape, while the actual image is on mode-osu-small. If we would not do it like this it would be near impossible to properly line up the two files with each other due to how osu!s rendering works.
-Mode-osu-small also allows us to cover those leftmost 448 pixels, but we still have the same colour limitations as mentioned earlier.
+The last basic thing we can do with the top part is to change its shape. The only two elements that cover the whole screen are ``menu-back`` and ``mode-x-small``. The problem with the ``mode-x-smalls`` is that they are in additive blend mode, they won't be able to cover the top part properly, but we will be still using them for something else. And menu-back's hitbox is defined by it's size, so if you made it cover the whole screen, the whole screen will become the back button. The element we will use is ``selection-mode``. It is placed 448px (HD) from the left screen border, meaning we will only be able to form the shape from the 449th pixel onward. ``Selection-mode`` should only contain a black shape, while the actual image is on ``mode-osu-small``. If we would not do it like this it would be near impossible to properly line up the two files with each other due to how osu!s rendering works.
+``Mode-osu-small`` also allows us to cover those leftmost 448 pixels, but we still have the same colour limitations as mentioned earlier.
 The easiest way to explain this is to simply show what we will do with the file.
 
 <details><summary>Image</summary>
@@ -156,7 +156,7 @@ The easiest way to explain this is to simply show what we will do with the file.
 
 </details>
 
-Note that if you don't want to reshape and just want to colour your outline with a colour that is not compatible you can cover the line with selection-mode, this will make it so that the line from pixel 449 onwards will be black, meaning you can achieve any colour you want. Just add a blend from whatever colour you have on the leftmost 448 pixels of the line into the colour you have on the rest of the outline. The beatmap info icon gets covered by this, leaving you with the opportunity to add your own. 
+Note that if you don't want to reshape and just want to colour your outline with a colour that is not compatible you can cover the line with ``selection-mode``, this will make it so that the line from pixel 449 onwards will be black, meaning you can achieve any colour you want. Just add a blend from whatever colour you have on the leftmost 448 pixels of the line into the colour you have on the rest of the outline. The beatmap info icon gets covered by this, leaving you with the opportunity to add your own. 
 
 You might've noticed that the black part that covers the shape doesn't reach all the way to the top. There is a reason for that, if you make it higher you will cover the map info. 
 
@@ -174,11 +174,11 @@ There are a a few gimmicky things you can do with the top part, custom selection
 
 </details>
 
-Covering the group and sort text is really easy. You just need selection-mode@2x for it. You have to cover the text. You will have the same problems as with changing the top part shape, covering information. If you make the cover to high it will cover longer song names. Just cut it of as shown on the example for reshaping. If you also want to replace the text and not just cover it up, just put the new text or icon onto mode-osu-small@2x. The one thing you need to be wary of is that this will break on different languages, because they have longer/shorter words for group/sort.
+Covering the group and sort text is really easy. You just need selection-mode@2x for it. You have to cover the text. You will have the same problems as with changing the top part shape, covering information. If you make the cover to high it will cover longer song names. Just cut it of as shown on the example for reshaping. If you also want to replace the text and not just cover it up, just put the new text or icon onto ``mode-osu-small@2x``. The one thing you need to be wary of is that this will break on different languages, because they have longer/shorter words for group/sort.
 
-Custom selection tabs work the same way basically. Just cover the ones that already exist and put your own ones and your own text onto mode-osu-small. The main point of this is that you can change the text and box colour with this and use selection-tab styles that normally wouldn't be possible. You can just make the actual selection-tab a black/completely transparent box, but don't make it a 1x1 px blank image. As I already mentioned previously, the hitbox of selection-tabs are defined by their size. The alignment for where you need to place your selection tabs can be found on the song selection template.
+Custom selection tabs work the same way basically. Just cover the ones that already exist and put your own ones and your own text onto ``mode-osu-small``. The main point of this is that you can change the text and box colour with this and use selection-tab styles that normally wouldn't be possible. You can just make the actual selection-tab a black/completely transparent box, but don't make it a 1x1 px blank image. As I already mentioned previously, the hitbox of ``selection-tab`` is defined by its size. The alignment for where you need to place your selection tabs can be found on the song selection template.
 
-The search bar works the same way as the other gimmicks, cover up the default and put your own onto mode-osu-small. The things you have to look out for is that **Type to search!** is on top of selection-mode, meaning it can't be covered up. The other thing is that the box that is normally around the searchbar expands once you type anything in it. So make sure that your design is big enough to cover up the extended state of the search bar.
+The search bar works the same way as the other gimmicks, cover up the default and put your own onto ``mode-osu-small``. The things you have to look out for is that **Type to search!** is on top of ``selection-mode``, meaning it can't be covered up. The other thing is that the box that is normally around the searchbar expands once you type anything in it. So make sure that your design is big enough to cover up the extended state of the search bar.
 
 <details><summary>Image</summary>
 
@@ -187,10 +187,10 @@ The search bar works the same way as the other gimmicks, cover up the default an
 </details>
 
 # Song Carousel and Leaderboard
-There isn't that much that I need to say about these two parts. The carousel mainly consists out of menu-button-background@2x.png, star@2x.png and 2 ini commands under **[Colours]**. With the ini commands you can set the colour of the text on menu-button-background. SongSelectActiveText sets the colour for the currently selected card, SongSelectInactiveText sets the colour for all the non selected cards.
+There isn't that much that I need to say about these two parts. The carousel mainly consists out of ``menu-button-background@2x.png``, ``star@2x.png`` and 2 ini commands under ``[Colours]``. With the ini commands you can set the colour of the text on menu-button-background. ``SongSelectActiveText`` sets the colour for the currently selected card, ``SongSelectInactiveText`` sets the colour for all the non selected cards.
 There are a few things you should know before you start making your song carousel:
 
-- The cards in the carousel get tinted in various colours. This feature sadly cannot be disabled. These colours are all on the skinnable files spreadsheet. Basically, the only way to somewhat work around this is to use mainly black and dark greys for the menu-button-background, this however doesn't work that well with really colourful themes. You will have to try out yourself if a black one or a colourful one will fit your theme better.
+- The cards in the carousel get tinted in various colours. This feature sadly cannot be disabled. These colours are all on the skinnable files spreadsheet. Basically, the only way to somewhat work around this is to use mainly black and dark greys for the ``menu-button-background``, this however doesn't work that well with really colourful themes. You will have to try out yourself if a black one or a colourful one will fit your theme better.
 - The thumbnail is placed 17px away from the left border of the image. The thumbnail is about 227 x 170 pixel big.
 - The stars will get slightly bigger the more there are.
 
@@ -208,7 +208,7 @@ There are a few things you should know before you start making your song carouse
 
     </details>
 
-- Stars used to have a different behaviour. They used to get partially filled. This however was changed with skin.ini version 2.2, which brought us thumbnail support. As such you cannot have thumbnail images and the old star behaviour.
+- Stars used to have a different behaviour. They used to get partially filled. This however was changed with skin.ini version ``2.2``, which brought us thumbnail support. As such you cannot have thumbnail images and the old star behaviour.
 - Everything gets shifted to the left edge if there is no thumbnail. It's recommend to include a version of the menu-button-background in an extra folder inside your skin that does not have a window for the thumbnail, because there are people who disabled thumbnails in the osu settings.
 
 There isn't a lot you can do with the leaderboard. And for some reason, the leaderboard does not use scoreentry numbers for it's numbers. Basically the only thing you can do is to add a frame or background around the whole leaderboard. Like this:
@@ -221,7 +221,7 @@ There isn't a lot you can do with the leaderboard. And for some reason, the lead
 
 You can do this by adding it onto mode-osu-small. the placement can be found on the song selection template.
 
-Mode-Osu@2x (and mode-fruits, -taiko and -mania) can be found between the leaderboard and the song carousel. It shows the current game mode you are playing. Most people either blank it out or leave it as it is. But there are some gimmicky things that can be done with it. The aforementioned frame on the leaderboard can be done with it as well and you can add some background effects to the song selection.
+``Mode-Osu@2x`` (and mode-fruits, -taiko and -mania) can be found between the leaderboard and the song carousel. It shows the current game mode you are playing. Most people either blank it out or leave it as it is. But there are some gimmicky things that can be done with it. The aforementioned frame on the leaderboard can be done with it as well and you can add some background effects to the song selection.
 
 The last thing I need to mention are the small ranking letters. They get shared between the song carousel and the leaderboard. They have different anchor points on both. If your font isn't monospaced (fixed-width) it can be a real nightmare to align them properly, because if you align them to the letters to the left, they will look weird on the leaderboard. But the opposite can happen if you align them to the centre. That is one of the reason why I would recommend a monospaced font for the ranking letters.
 
@@ -234,7 +234,7 @@ There are three main styles for the mode selection. Icons only, complete box and
 
 </details>
 
-There are two ways of skinning the mode selection. You can split it all up into their files or blank out 3 of them and use one for everything. 
+There are two ways of skinning the mode selection. You can split it all up into their files or blank out three of them and use one for everything. The four files are ``selection-osu-med``, ``selection-fruits-med``, ``selection-mania-med`` and ``selection-taiko-med``.
 I recommend using this template, made by [Galvit](https://osu.ppy.sh/users/7629682) if you plan to go with only one file.
 
 <details><summary>Image</summary>
