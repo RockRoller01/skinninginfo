@@ -10,7 +10,7 @@ The song selection screen in osu! looks like this:
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/song_selection_full.png" style="width:100%">
+<img src="img/song_selection/song_selection_full.png" style="width:100%">
 
 </details>
 
@@ -18,8 +18,8 @@ It's made out of several parts, which are:
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/song_selection_marked.png" style="width:100%">
-<img src="img/introduction/song_selection_mode_selection.png" style="width:100%">
+<img src="img/song_selection/song_selection_marked.png" style="width:100%">
+<img src="img/song_selection/song_selection_mode_selection.png" style="width:100%">
 
 </details>
  
@@ -38,7 +38,7 @@ There are many ways of designing the song selection, it's totally up to you. Gen
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/bottom_part_style.png" style="width:100%">
+<img src="img/song_selection/bottom_part_style.png" style="width:100%">
 
 </details>
 
@@ -49,7 +49,7 @@ There are a few things you can do with the bottom part that goes beyond the inte
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/bottom_part_220_height.png" style="width:100%">
+<img src="img/song_selection/bottom_part_220_height.png" style="width:100%">
 
 </details>
 
@@ -57,7 +57,7 @@ You could also only have certain parts go above 180px, especially in the middle 
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/bottom_part_middle.png" style="width:100%">
+<img src="img/song_selection/bottom_part_middle.png" style="width:100%">
 
 </details>
 
@@ -67,7 +67,7 @@ The other thing I mentioned that you can do with the bottom part was changing th
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/bottom_part_shape_change.png" style="width:100%">
+<img src="img/song_selection/bottom_part_shape_change.png" style="width:100%">
 
 </details>
 
@@ -83,7 +83,7 @@ ADD GALVITS EXPLANATION
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/userprofile_border.png" style="width:100%">
+<img src="img/song_selection/userprofile_border.png" style="width:100%">
 
 </details>
 
@@ -91,7 +91,7 @@ For the elements you simply have to cover the default ones. This allows you to a
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/userprofile_custom.png" style="width:100%">
+<img src="img/song_selection/userprofile_custom.png" style="width:100%">
 
 </details>
 
@@ -100,7 +100,7 @@ Now onto the top part. This one often is a bigger problem for beginners, but it 
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_styles.png" style="width:100%">
+<img src="img/song_selection/toppart_styles.png" style="width:100%">
 
 </details>
 
@@ -111,7 +111,7 @@ To change the colour we basically only need to do a small subtraction to get the
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_colours.png" style="width:100%">
+<img src="img/song_selection/toppart_colours.png" style="width:100%">
 
 </details>
 
@@ -125,7 +125,7 @@ If you want, for example, a light blue colour (78, 216, 247) the top bar should 
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_red_result.png" style="width:100%">
+<img src="img/song_selection/toppart_red_result.png" style="width:100%">
 
 </details>
 
@@ -133,7 +133,7 @@ The next thing would be to add a background to the ``mode-x-small``. This isn't 
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_bright.png" style="width:100%">
+<img src="img/song_selection/toppart_bright.png" style="width:100%">
 
 </details>
 
@@ -141,7 +141,7 @@ To counter this you either will have to choose something else for the background
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_bright_fix.png" style="width:100%">
+<img src="img/song_selection/toppart_bright_fix.png" style="width:100%">
 
 </details>
 
@@ -151,8 +151,8 @@ The easiest way to explain this is to simply show what we will do with the file.
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_reshape_example_selection-mode@2x.png" style="width:100%">
-<img src="img/introduction/toppart_reshape_example_mode-osu-small@2x.png" style="width:100%">
+<img src="img/song_selection/toppart_reshape_example_selection-mode@2x.png" style="width:100%">
+<img src="img/song_selection/toppart_reshape_example_mode-osu-small@2x.png" style="width:100%">
 
 </details>
 
@@ -162,7 +162,7 @@ You might've noticed that the black part that covers the shape doesn't reach all
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_info_covered.png" style="width:100%">
+<img src="img/song_selection/toppart_info_covered.png" style="width:100%">
 
 </details>
 
@@ -170,7 +170,7 @@ There are a a few gimmicky things you can do with the top part, custom selection
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_gimmicks.png" style="width:100%">
+<img src="img/song_selection/toppart_gimmicks.png" style="width:100%">
 
 </details>
 
@@ -182,7 +182,7 @@ The search bar works the same way as the other gimmicks, cover up the default an
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/toppart_search_bar_size.png" style="width:100%">
+<img src="img/song_selection/toppart_search_bar_size.png" style="width:100%">
 
 </details>
 
@@ -196,7 +196,7 @@ There are a few things you should know before you start making your song carouse
 
     <details><summary>Image</summary>
 
-    <img src="img/introduction/caroussel_star_scaling.png" style="width:100%">
+    <img src="img/song_selection/caroussel_star_scaling.png" style="width:100%">
 
     </details>
 
@@ -204,7 +204,7 @@ There are a few things you should know before you start making your song carouse
 
     <details><summary>Image</summary>
 
-    <img src="img/introduction/caroussel_star_box.png" style="width:100%">
+    <img src="img/song_selection/caroussel_star_box.png" style="width:100%">
 
     </details>
 
@@ -215,7 +215,7 @@ There isn't a lot you can do with the leaderboard. And for some reason, the lead
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/leaderboard_bg.png" style="width:100%">
+<img src="img/song_selection/leaderboard_bg.png" style="width:100%">
 
 </details>
 
@@ -230,7 +230,7 @@ There are three main styles for the mode selection. Icons only, complete box and
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/mode_selection_styles.png" style="width:100%">
+<img src="img/song_selection/mode_selection_styles.png" style="width:100%">
 
 </details>
 
@@ -239,6 +239,6 @@ I recommend using this template, made by [Galvit](https://osu.ppy.sh/users/76296
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/mode_selection_template.png" style="width:100%">
+<img src="img/song_selection/mode_selection_template.png" style="width:100%">
 
 </details>
