@@ -15,7 +15,7 @@ If you do not know what instant fading hitcircles are I recommend you to watch [
 1. Upscale your hitcircle and hitcircleoverlay by 1.25 times.
 2. Tint the hitcircle with a combo color of your choice.
 3. Take your upscaled hitcircle and hitcircleoverlay files, and overlap them. Make sure the hitcircleoverlay is on top.
-4. Now take the overlapped hitcircle files, and place it under your hitcircle numbers (default-[1-9])
+4. Now take the overlapped hitcircle file, and place it under your hitcircle numbers (default-[1-9]). If you do not have default-# images, please open your skin.ini file and check for a line called **HitCirclePrefix:**, it can change the prefix. If this line is set, please proceed with the prefix it lists.
 5. Make a completely blank default-0 image, but give it the same size as default-[1-9]
 6. Now that you merged your hitcircle with your hitcircle numbers, remove the hitcircle and hitcircleoverlay files, and replace them with transparent images.
 7. Now open your skin.ini configuration file, and set Combo1 to the color you used for the hitcircle. Then delete all other lines starting with Combo2 and onwards.
