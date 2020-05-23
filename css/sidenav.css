@@ -9,14 +9,15 @@
 }
 .sidenav{
     height: 100%;
-    width: auto;
+    width: 200px;
     position: fixed;
     top: 0;
     left:0;
     background-color: var(--background);
     overflow-x: hidden;
     padding: 16px;
-    border-radius: 0 8px 0 8px
+    border-radius: 0 8px 0 8px;
+    line-height: 24;
 }
 .sidenav a{
     text-decoration: none;
@@ -31,7 +32,6 @@
     margin-bottom: 4px;
     padding: 0 16px;
     font-size: 16px;
-    line-height: 20.8px;
     padding-bottom: 0px;
     padding-left: 0px;
 }
