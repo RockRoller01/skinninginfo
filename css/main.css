@@ -1,8 +1,8 @@
-* {
+*{
     box-sizing: border-box;
 }
 
-:root {
+:root{
     --link: #0CA4D6;
     --link-hover: #26C9FF;
     --line: #0CA4D6;
@@ -17,7 +17,7 @@
     --sidenav-width: 200px;
 }
 
-body {
+body{
     background-color: var(--dark-background);
     color: var(--text);
     font-family: 'Inter', sans-serif;
@@ -34,12 +34,21 @@ body {
     line-height: 1.3;
     max-width: var(--content-width);
 }
-
 .main ul{
     list-style-type: disc;
 }
+.main ul code{
+    line-height: 26px;
+}
 strong{
     font-weight: 800;
+}
+code{
+    font-family: "Inter", sans-serif;
+    background: var(--dark-background);
+    border-radius: 6px;
+    padding: 2px 6px;
+    color: var(--link);
 }
 
 /* links */
@@ -62,7 +71,7 @@ details > summary{
 }
 
 /* header and line */
-h1 {
+h1{
     border-bottom: solid;
     border-width: 2px;
     border-color: var(--dark-background);
@@ -70,22 +79,22 @@ h1 {
     line-height: 34px;
     padding-bottom: 12px;
 }
-h1:first-child {
+h1:first-child{
     margin-top: 0px;
 }
-h2 {
+h2{
     font-size: 32px;
 }
-hr {
+hr{
     color: var(--dark-background);
 }
 
 /* header and navigation bar */
-.header {
+.header{
     position: sticky;
     top: 0;
 }
-.navbar {
+.navbar{
     margin: 0 auto;
     margin-bottom: 16px;
     font-weight: 700;
@@ -95,8 +104,7 @@ hr {
     border-radius: 0 0 8px 8px;
     overflow: hidden;
 }
-
-.navbar a {
+.navbar a{
     float: left;
     display: inline-flex;
     color: var(--link);
@@ -106,13 +114,13 @@ hr {
     text-decoration: none;
     transition: 200ms ease all;
 }
-.navbar a:hover {
+.navbar a:hover{
     background: rgba(0,0,0,0.3);
     color: var(--text);
 }
 
 /* Icons */
-.icon {
+.icon{
    width: 16px;
    height: 16px;
    margin-right: 8px;
@@ -120,7 +128,7 @@ hr {
 }
 
 /* sidebar navigation */
-.sidenav {
+.sidenav{
     position: fixed;
     top: 0;
     height: 100vh;
@@ -134,7 +142,7 @@ hr {
     line-height: 24px;
     float: left;
 }
-.sidenav a {
+.sidenav a{
     text-decoration: none;
     color: var(--link);
     display: block;
@@ -142,7 +150,7 @@ hr {
 .sidenav a:hover, .sidenav a:focus, .sidenav a:active {
     color: var(--text);
 }
-.sidenav h1 {
+.sidenav h1{
     margin-top: 4px;
     margin-bottom: 4px;
     padding: 0;
@@ -150,7 +158,7 @@ hr {
 }
 
 /* @media queries */
-@media (max-width: 1600px) {
+@media (max-width: 1600px){
     /* 1600px = sidebar width + max content width */
     body.tutorial_sidenav .main, body.tutorial_sidenav .navbar {
         margin-left: calc(var(--sidenav-width));
