@@ -1,48 +1,40 @@
-*{
+* {
     box-sizing: border-box;
 }
-:root{
+
+:root {
     --link: #0CA4D6;
     --link-hover: #26C9FF;
     --line: #0CA4D6;
     --background: #042f3a;
-    --text: white;
+    --text: #fff;
     --dark-background: #001A22;
     --content-width: 1200px;
 
     /* if the sidenav's width is going to be set manually,
      * change this value to adjust header's positioning too
      */
-    --tutorial-sidenav-width: 200px;
+    --sidenav-width: 200px;
 }
-body{
+
+body {
     background-color: var(--dark-background);
     color: var(--text);
     font-family: 'Inter', sans-serif;
     margin: 0;
 }
 
-/* container */
-.container {
-    display: flex;
-    justify-content: space-between;
-}
-
 /* content */
 .main{
-    flex-grow: 1;
     margin: auto;
     margin-bottom: 64px;
-    background-color: var(--background);
     padding: 32px;
-    border-style: solid;
-    border-color: var(--background);
-    border-width: 1px;
+    background-color: var(--background);
     border-radius: 8px;
     line-height: 1.3;
-    min-height: calc(100vh - 64px*2 - 54px);
     max-width: var(--content-width);
 }
+
 .main ul{
     list-style-type: disc;
 }
@@ -70,7 +62,7 @@ details > summary{
 }
 
 /* header and line */
-h1{
+h1 {
     border-bottom: solid;
     border-width: 2px;
     border-color: var(--dark-background);
@@ -78,13 +70,13 @@ h1{
     line-height: 34px;
     padding-bottom: 12px;
 }
-h1:first-child{
+h1:first-child {
     margin-top: 0px;
 }
-h2{
+h2 {
     font-size: 32px;
 }
-hr{
+hr {
     color: var(--dark-background);
 }
 
@@ -92,17 +84,19 @@ hr{
 .header {
     position: sticky;
     top: 0;
-    margin-bottom: 16px;
-}
-.header.tutorial {
-    margin-left: var(--tutorial-sidenav-width);
 }
 .navbar {
+    margin: 0 auto;
+    margin-bottom: 16px;
     font-weight: 700;
-    display: flex;
-    justify-content: center;
+    max-width: var(--content-width);
+    background-color: var(--background);
+    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.15);
+    border-radius: 0 0 8px 8px;
+    overflow: hidden;
 }
-.navbar a{
+
+.navbar a {
     float: left;
     display: inline-flex;
     color: var(--link);
@@ -112,23 +106,53 @@ hr{
     text-decoration: none;
     transition: 200ms ease all;
 }
-.navbar a:hover{
+.navbar a:hover {
     background: rgba(0,0,0,0.3);
     color: var(--text);
 }
-.navbar > .content{
-    max-width: var(--content-width);
-    flex: 1;
-    background-color: var(--background);
-    box-shadow: 0px 5px 9px 0px rgba(0,0,0,0.15);
-    border-radius: 0 0 8px 8px;
-    overflow: hidden;
-}
 
 /* Icons */
-.icon{
+.icon {
    width: 16px;
    height: 16px;
    margin-right: 8px;
-   fill: var(--link)
+   fill: currentColor;
+}
+
+/* sidebar navigation */
+.sidenav {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    min-width: var(--tutorial-sidenav-width);
+    width: 200px;
+    background-color: var(--background);
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding: 16px;
+    border-radius: 0 8px 8px 0;
+    line-height: 24px;
+    float: left;
+}
+.sidenav a {
+    text-decoration: none;
+    color: var(--link);
+    display: block;
+}
+.sidenav a:hover, .sidenav a:focus, .sidenav a:active {
+    color: var(--text);
+}
+.sidenav h1 {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 0;
+    font-size: 16px;
+}
+
+/* @media queries */
+@media (max-width: 1600px) {
+    /* 1600px = sidebar width + max content width */
+    body.tutorial_sidenav .main, body.tutorial_sidenav .navbar {
+        margin-left: calc(var(--sidenav-width));
+    }
 }
