@@ -11,5 +11,5 @@ The anchor points of elements are marked by the differently coloured corners
 - bright green (in order): ``menu-back``, ``selection-mode``, ``selection-mods``, ``selection-random``, ``selection-options`` and the ``-over`` images
 - light green: ``selection-tab``
 
-![](img/song_selection/song_selection_full.png "16:9")
-![](img/song_selection/song_selection_full.png "16:10")
+![](song_selection/song_selection_full.png "16:9")
+![](song_selection/song_selection_full.png "16:10")
