@@ -18,7 +18,7 @@ The anchor points of elements are marked by the differently coloured corners
 <img src="song_selection/mode-x-small_16-9.png" style="width:100%">
 
 </details>
-
+<br>
 <details><summary>16:10</summary>
 
 <img src="song_selection/16-10.png" style="width:100%">
