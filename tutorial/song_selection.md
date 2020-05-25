@@ -43,7 +43,7 @@ There are many ways of designing the song selection, it's totally up to you. Gen
 </details>
 
 There aren't that many things you need to know to get either of these 4 results.
-Whenever you work with the song selection, [this template](https://osu.ppy.sh/community/forums/topics/686407) will be of huge help. On there is everything that the song selection contains, with its standard sizes. You basically just need to trace over it, and then, after you're finished, cut everything into their respective images.
+Whenever you work with the song selection, [this template](https://rockroller01.github.io/skinninginfo/templates/song_selection.html) will be of huge help. On there is everything that the song selection contains, with its standard sizes. You basically just need to trace over it, and then, after you're finished, cut everything into their respective images.
 
 There are a few things you can do with the bottom part that goes beyond the intended image sizes. The two main things are a height change and a shape change. The default bottom part is only 180px high, but you can make it higher. All of the buttons have their anchor points at their bottom left corner, meaning they can be extended all the way up to the upper screen border. **But**, there are two things you need to be aware of when doing this. First, if you go too high you might cover the leaderboards or beatmaps. You can extend the bottom part up to roughly ~220px (shown below), without covering anything.
 
@@ -166,7 +166,7 @@ You might've noticed that the black part that covers the shape doesn't reach all
 
 </details>
 
-There are a a few gimmicky things you can do with the top part, custom selection-tabs, custom search bar and changing or covering the group and sort text.
+There are a a few gimmicky things you can do with the top part, custom selection-tabs, custom search bar, good luck dropdown texts and changing or covering the group and sort text.
 
 <details><summary>Image</summary>
 
@@ -185,6 +185,8 @@ The search bar works the same way as the other gimmicks, cover up the default an
 <img src="img/song_selection/toppart_search_bar_size.png" style="width:100%">
 
 </details>
+
+You may have noticed that if you skin the top part that it will drop down if you enter a beatmap. It sadly is not possible to disable it, but it also allows us to add things like "Good Luck!" to the dropdown. You need to extend the canvas by the same amount at the top and the bottom and then you can simply add a that "Good Luck!" text, or whatever else you want to add, outside of the part that is shown on the song selection. On the song selection template the brown part is the exact size of the screen, meaning you need to go above the brown part.
 
 # Song Carousel and Leaderboard
 There isn't that much that I need to say about these two parts. The carousel mainly consists out of ``menu-button-background@2x.png``, ``star@2x.png`` and 2 ini commands under ``[Colours]``. With the ini commands you can set the colour of the text on menu-button-background. ``SongSelectActiveText`` sets the colour for the currently selected card, ``SongSelectInactiveText`` sets the colour for all the non selected cards.
