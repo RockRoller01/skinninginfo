@@ -6,7 +6,7 @@ title: Sounds
 # Sounds
 There are a lot of sounds you can customise in osu, so many that I won't list them all, for a full list please check the skinnable files list. Most of them should have a sufficient explanation on the spreadsheet, so I am only going to talk about a few of them.
 
-The sounds can be separated into two main categories, menu sounds and hitsounds. All sounds should be in the ``.wav`` format, besides ``pause-loop``, ``failsounds`` and ``applause`` those should be in ``.mp3`` if you plan to use sounds that are longer than a few seconds for these. The reason for this is that a lot of people tend to use full songs for either of those and those can take up a lot of space in ``.wav`` format, without yielding any benefit from that. 
+The sounds can be separated into two main categories, menu sounds and hitsounds. All sounds should be in the ``.wav`` format, besides ``pause-loop``, ``failsound`` and ``applause`` those should be in ``.mp3`` if you plan to use sounds that are longer than a few seconds for these. The reason for this is that a lot of people tend to use full songs for either of those and those can take up a lot of space in ``.wav`` format, without yielding any benefit from that. 
 
 When skinning the sounds its important to have your music and effect volume set to similar percentages like I said in the getting started part, because that is how most people will have their sound settings.
 
