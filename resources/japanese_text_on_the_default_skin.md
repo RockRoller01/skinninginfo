@@ -4,6 +4,7 @@ title: Japanese Text on the Default Skin
 ---
 
 # Japanese Text on the Default Skin
+
 | Description          | Japanese |
 |----------------------|:--------:|
 | Back to Menu         | やめろ |
@@ -13,9 +14,3 @@ title: Japanese Text on the Default Skin
 | Skip                 | スキツプ |
 | Katu (hit 100k/300k) | 喝 |
 | Geki (hit 300g)      | 激 |
-
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
