@@ -89,6 +89,11 @@ hr{
     color: var(--dark-background);
 }
 
+/* table */
+table th{
+    text-align: start;
+}
+
 /* header and navigation bar */
 .header{
     position: sticky;
