@@ -99,24 +99,20 @@ table th{
     color: var(--accent);
     padding-left: 64px;
 }
-
 table{
     border-spacing: 0px;
 }
-
-table td {
+table td{
     border-top: solid 1px var(--divider);
     padding: 8px 0px;
 
     text-align: start!important;
     padding-left: 64px;
 }
-
-table tr:first-child > td {
+table tr:first-child > td{
     border-top: none;
 }
-
-table tr > td:first-child, table tr > th:first-child {
+table tr > td:first-child, table tr > th:first-child{
     padding-left: 0px;
 }
 
@@ -192,7 +188,7 @@ table tr > td:first-child, table tr > th:first-child {
 /* @media queries */
 @media (max-width: 1600px){
     /* 1600px = sidebar width + max content width */
-    body.tutorial_sidenav .main, body.tutorial_sidenav .navbar {
+    body.tutorial_sidenav .main, body.tutorial_sidenav .navbar{
         margin-left: calc(var(--sidenav-width));
     }
 }
