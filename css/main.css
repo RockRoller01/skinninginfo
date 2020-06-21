@@ -3,13 +3,14 @@
 }
 
 :root{
-    --link: #0CA4D6;
+    --accent: #0CA4D6;
     --link-hover: #26C9FF;
     --line: #0CA4D6;
     --background: #042f3a;
     --text: #fff;
     --dark-background: #001A22;
     --content-width: 1200px;
+    --divider: rgba(255, 255, 255, 0.1);
 
     /* if the sidenav's width is going to be set manually,
      * change this value to adjust header's positioning too
@@ -48,12 +49,12 @@ code{
     background: var(--dark-background);
     border-radius: 6px;
     padding: 2px 6px;
-    color: var(--link);
+    color: var(--accent);
 }
 
 /* links */
 a{
-    color: var(--link);
+    color: var(--accent);
     text-decoration: none;
 }
 a:hover, a:focus, a:active{
@@ -91,13 +92,38 @@ hr{
 
 /* table */
 table th{
-    text-align: start;
+    text-align: start!important;
+    padding-bottom: 8px;
+
+    color: var(--accent);
+    padding-left: 64px;
+}
+
+table{
+    border-spacing: 0px;
+}
+
+table td {
+    border-top: solid 1px var(--divider);
+    padding: 8px 0px;
+
+    text-align: start!important;
+    padding-left: 64px;
+}
+
+table tr:first-child > td {
+    border-top: none;
+}
+
+table tr > td:first-child, table tr > th:first-child {
+    padding-left: 0px;
 }
 
 /* header and navigation bar */
 .header{
     position: sticky;
     top: 0;
+    
 }
 .navbar{
     margin: 0 auto;
@@ -112,7 +138,7 @@ table th{
 .navbar a{
     float: left;
     display: inline-flex;
-    color: var(--link);
+    color: var(--accent);
     text-align: center;
     align-items: center;
     padding: 14px 16px;
@@ -149,7 +175,7 @@ table th{
 }
 .sidenav a{
     text-decoration: none;
-    color: var(--link);
+    color: var(--accent);
     display: block;
 }
 .sidenav a:hover, .sidenav a:focus, .sidenav a:active {
