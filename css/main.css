@@ -23,6 +23,7 @@ body{
     color: var(--text);
     font-family: 'Inter', sans-serif;
     margin: 0;
+    overflow-y: scroll;
 }
 
 /* content */
