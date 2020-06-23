@@ -63,7 +63,7 @@ Every element in osu! has an anchor point, which is listed in the skinnable file
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/origin_points.png" alt="Visualization of origin points" style="width:100%">
+<img src="img/introduction/origin_points.png" alt="Visualization of origin points">
 
 </details>
 
@@ -71,7 +71,7 @@ Images that, for example, have their anchor point set as bottom left can't exten
 
 <details><summary>Image</summary>
 
-<img src="img/introduction/different_origin_points.png" alt="Visualization of bottom left origin points" style="width:100%" />
+<img src="img/introduction/different_origin_points.png" alt="Visualization of bottom left origin points" />
 
 </details>
 

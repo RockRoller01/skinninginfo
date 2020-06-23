@@ -14,14 +14,14 @@ The anchor points of elements are marked by the differently coloured corners
 
 <details><summary>16:9</summary>
 
-<img src="song_selection/16-9.png" style="width:100%">
-<img src="song_selection/mode-x-small_16-9.png" style="width:100%">
+<img src="song_selection/16-9.png">
+<img src="song_selection/mode-x-small_16-9.png">
 
 </details>
 <br>
 <details><summary>16:10</summary>
 
-<img src="song_selection/16-10.png" style="width:100%">
-<img src="song_selection/mode-x-small_16-10.png" style="width:100%">
+<img src="song_selection/16-10.png">
+<img src="song_selection/mode-x-small_16-10.png">
 
 </details>

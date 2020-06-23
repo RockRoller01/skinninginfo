@@ -24,6 +24,6 @@ Below you can find a template of the menu-background that shows how much space t
 
 <details><summary>Image</summary>
 
-<img src="img/main_menu/main_menu_template.png" style="width:100%">
+<img src="img/main_menu/main_menu_template.png">
 
 </details>
