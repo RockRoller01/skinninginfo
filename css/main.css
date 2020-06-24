@@ -184,10 +184,13 @@ table tr > td:first-child, table tr > th:first-child{
     color: var(--text);
 }
 .sidenav h1{
-    margin-top: 4px;
+    margin-top: 24px;
     margin-bottom: 4px;
     padding: 0;
+    padding-bottom: 0px;
     font-size: 16px;
+    line-height: 14px;
+    padding-bottom: 8px;
 }
 
 /* @media queries */
