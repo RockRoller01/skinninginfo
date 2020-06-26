@@ -236,7 +236,7 @@ There are three main styles for the mode selection. Icons only, complete box and
 
 </details>
 
-There are two ways of skinning the mode selection. You can split it all up into their files or blank out three of them and use one for everything. The four files are ``selection-osu-med``, ``selection-fruits-med``, ``selection-mania-med`` and ``selection-taiko-med``.
+There are two ways of skinning the mode selection. You can split it all up into their files or blank out three of them and use one for everything. The four files are ``mode-osu-med``, ``mode-fruits-med``, ``mode-mania-med`` and ``mode-taiko-med``.
 I recommend using this template, made by [Galvit](https://osu.ppy.sh/users/7629682) if you plan to go with only one file.
 
 <details><summary>Image</summary>
