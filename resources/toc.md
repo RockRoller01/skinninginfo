@@ -30,5 +30,5 @@ Miscellaneous
 - [Japanese Text on the Default Skin](https://rockroller01.github.io/skinninginfo/resources/japanese_text_on_the_default_skin.html)
 
 Templates
-- [Song Selection Template]((./song_selection.html))
+- [Song Selection Template](./song_selection.html)
 - [Galvit's Template Skin](https://osu.ppy.sh/community/forums/topics/923143)
