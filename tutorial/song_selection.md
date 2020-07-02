@@ -43,7 +43,7 @@ There are many ways of designing the song selection, it's totally up to you. Gen
 </details>
 
 There aren't that many things you need to know to get either of these 4 results.
-Whenever you work with the song selection, [this template](https://rockroller01.github.io/skinninginfo/templates/song_selection.html) will be of huge help. On there is everything that the song selection contains, with its standard sizes. You basically just need to trace over it, and then, after you're finished, cut everything into their respective images.
+Whenever you work with the song selection, [this template](https://tutorial.skinship.xyz/resources/song_selection.html) will be of huge help. On there is everything that the song selection contains, with its standard sizes. You basically just need to trace over it, and then, after you're finished, cut everything into their respective images.
 
 There are a few things you can do with the bottom part that goes beyond the intended image sizes. The two main things are a height change and a shape change. The default bottom part is only 180px high, but you can make it higher. All of the buttons have their anchor points at their bottom left corner, meaning they can be extended all the way up to the upper screen border. **But**, there are two things you need to be aware of when doing this. First, if you go too high you might cover the leaderboards or beatmaps. You can extend the bottom part up to roughly ~220px (shown below), without covering anything.
 
