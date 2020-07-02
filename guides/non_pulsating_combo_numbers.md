@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Creating Non-Pulsating Combo Numbers
+description: This page is under construction.
 ---
 
 # Creating Non-Pulsating Combo Numbers
@@ -12,4 +13,7 @@ If you do not know what non-pulsating combo numbers are I recommend you to watch
 
 ***
 
-1. add steps here
+1. Go to the skin.ini and set ``ComboPrefix: combo`` under ``[Fonts]``
+2. Make normal combo numbers with the prefix ``combo-``
+4. Adjust ``ComboOverlap:`` like you normally would
+3. You need about 5 px (SD)/10 px (HD) to the left of the number
