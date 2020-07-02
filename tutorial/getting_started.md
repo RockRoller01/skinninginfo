@@ -1,6 +1,7 @@
 ---
 layout: tutorial-sidenav
 title: Getting Started
+description: Getting started with skinning.
 ---
 
 # Getting Started

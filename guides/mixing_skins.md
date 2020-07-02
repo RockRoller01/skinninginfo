@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Creating your Personal Mixed Skin
+description: This page is under construction.
 ---
 
 # Creating Non-Pulsating Combo Numbers

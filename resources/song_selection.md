@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Song Selection Template
+description: song selection template
 ---
 
 # Song Selection Template

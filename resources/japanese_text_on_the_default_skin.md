@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Japanese Text on the Default Skin
+description: Japanese Text on the Default Skin
 ---
 
 # Japanese Text on the Default Skin

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Using Dots for HitCircle Numbers
+description: This guide will teach you how to use dots for your hitcircle numbers.
 ---
 
 # Creating Instant Fading HitCircles
