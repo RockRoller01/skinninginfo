@@ -142,7 +142,7 @@ table tr > td:first-child, table tr > th:first-child{
     color: var(--accent);
     text-align: center;
     align-items: center;
-    padding: 18px 20px;
+    padding: 17px 19px;
     text-decoration: none;
     transition: 200ms ease all;
 }
