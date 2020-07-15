@@ -54,7 +54,7 @@ code{
 
 /* images */
 img{
-    width: 100%;
+    max-width: 100%;
 }
 
 /* links */
