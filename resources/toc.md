@@ -7,7 +7,7 @@ title: Resources
 Platforms
 - [Skinning Forum](https://osu.ppy.sh/community/forums/15)
 - [r/OsuSkins subreddit](https://www.reddit.com/r/OsuSkins/)
-- [skinship discord server](https://discord.gg/q8Z5JXM)
+- [skinship discord server](https://discord.skinship.xyz/)
 
 Skin Collections
 - [Completed Skins Compendium](https://osu.ppy.sh/community/forums/topics/686664)
