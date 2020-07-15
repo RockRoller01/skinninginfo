@@ -55,6 +55,7 @@ code{
 /* images */
 img{
     max-width: 100%;
+    display: block;
 }
 
 /* links */
