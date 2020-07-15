@@ -87,7 +87,7 @@ h1{
     line-height: 34px;
     padding-bottom: 12px;
 }
-h1:first-child{
+h1:first-of-type{
     margin-top: 0px;
 }
 h2{
