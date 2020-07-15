@@ -29,7 +29,7 @@ The most important source of information is the [skinnable files list](https://o
 
 Other useful information can be found in the [important guides and threads post](https://osu.ppy.sh/forum/t/611278). The [Skin Checker](https://osu.ppy.sh/forum/t/617168) can help identify any missing files in the skin's folder.
 
-For additional help, look around in the main [skinning forum](https://osu.ppy.sh/forum/15), or join the [skinship](https://discord.gg/AZ79xJb) discord server.
+For additional help, look around in the main [skinning forum](https://osu.ppy.sh/forum/15), or join the [skinship](https://discord.skinship.xyz/) discord server.
 
 ## Themes and Concepts
 
