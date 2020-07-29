@@ -15,3 +15,9 @@ If you want to contribute to this site, please contact me via Discord or the for
 
 Thanks to all these people that helped me get this site up and running:<br>
 [Death](https://osu.ppy.sh/users/3242450), [Enitoni](https://osu.ppy.sh/users/9118958), [MegaApple_Pi](https://osu.ppy.sh/users/2148208), [Aluuuuuu](https://osu.ppy.sh/users/11909549), [Matt2e2](https://osu.ppy.sh/users/12144912), and [Roan](https://osu.ppy.sh/users/8214639).
+
+## Latest Updates
+
+| Date | Type |
+| --------------------- | :----------: |
+| 29/07/2020 | Guide: Non-Pulsating Combo Numbers |
