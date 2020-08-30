@@ -14,7 +14,7 @@ If you need any additional help with anything skinning related, feel free to ask
 If you want to contribute to this site, please contact me via Discord or the forums as well. Just opening a pull request without contacting me first may lead to wasted time. I don't upload all work in progress articles.
 
 Thanks to all these people that helped me get this site up and running:<br>
-[Death](https://osu.ppy.sh/users/3242450), [Enitoni](https://osu.ppy.sh/users/9118958), [MegaApple_Pi](https://osu.ppy.sh/users/2148208), [_julia_](https://osu.ppy.sh/users/11909549), [Matt2e2](https://osu.ppy.sh/users/12144912), and [Roan](https://osu.ppy.sh/users/8214639).
+[Death](https://osu.ppy.sh/users/3242450), [Enitoni](https://osu.ppy.sh/users/9118958), [MegaApple_Pi](https://osu.ppy.sh/users/2148208), [\_julia](https://osu.ppy.sh/users/11909549), [Matt2e2](https://osu.ppy.sh/users/12144912), and [Roan](https://osu.ppy.sh/users/8214639).
 
 ## Latest Updates
 
