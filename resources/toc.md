@@ -27,8 +27,8 @@ Miscellaneous
 - [Completed Skins Queue](https://osu.ppy.sh/community/forums/topics/686672)
 - [Skin Testing Beatmap](https://osu.ppy.sh/beatmapsets/710185#osu/2271898)
 - [Default Skin](http://www.mediafire.com/file/3fvcpl61wnz3xfc/osu%2521_Default_skin_template.osk/file)
-- [Japanese Text on the Default Skin](https://rockroller01.github.io/skinninginfo/resources/japanese_text_on_the_default_skin.html)
+- [Japanese Text on the Default Skin](https://rockroller01.github.io/skinninginfo/resources/japanese_text_on_the_default_skin)
 
 Templates
-- [Song Selection Template](./song_selection.html)
+- [Song Selection Template](./song_selection)
 - [Galvit's Template Skin](https://osu.ppy.sh/community/forums/topics/923143)
