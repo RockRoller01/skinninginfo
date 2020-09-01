@@ -1,6 +1,6 @@
 title: Skinning Tutorial
 
-baseurl: "/"
+baseurl: ""
 
 exclude:
-- README.md
+    - README.md
