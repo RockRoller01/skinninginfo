@@ -51,11 +51,7 @@ Once you have your theme you should think of a concept. Just starting without an
 
 There are HD and SD elements. HD elements have the suffix `@2x` and are exactly double the size of the SD image. If an image is e.g. 128x128 in SD, then it will be 256x256 in HD.
 
-<details><summary>Image</summary>
-
-<img src="img/introduction/SD_vs_HD.png" style="width:50%">
-
-</details>
+<img class="img-text-right" src="img/introduction/SD_vs_HD.png" style="width:50%">
 
 It's highly recommended to skin in HD, because it will look a lot sharper in game and you can easily convert them to SD. **Please note that the skinnable files list only shows both SD and HD sizes!** It's important to note that HD images are only used by osu if it runs with at least 800px height, however, if no HD image is present for a file it will use SD image instead if available.
 
@@ -67,21 +63,13 @@ Resolution doesn't really matter for skinning, all it does is determine what ele
 
 ## Anchor/Origin Points and Layering
 
+<img class="img-text-right" src="img/introduction/origin_points.png" alt="Visualization of origin points">
+
 Every element in osu! has an anchor point, which is listed in the skinnable files list. As a consequence of rendering order (the order in which osu! displays images), some elements will appear as if they were above or below other elements. Just remember this, because later on you will need it to understand how some of the gimmicks work. The anchor points that are listed on the spreadsheet will always tell you from where the image will spread, but you also need to consider where an image is placed in the client. The main anchor points being one of the top corners of the file or its centre:
-
-<details><summary>Image</summary>
-
-<img src="img/introduction/origin_points.png" alt="Visualization of origin points">
-
-</details>
 
 Images that, for example, have their anchor point set as bottom left can't extend to the left. This means that an element would not be able to reach all places of the screen, unless it's placed near the left border of the window, as shown below:
 
-<details><summary>Image</summary>
-
 <img src="img/introduction/different_origin_points.png" alt="Visualization of bottom left origin points" />
-
-</details>
 
 ## General Tips
 
