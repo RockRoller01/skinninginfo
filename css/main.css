@@ -225,7 +225,7 @@ table tr > th:first-child {
 .sidenav a:active {
 	color: var(--text);
 }
-.unfinished {
+.sidenav .unfinished {
 	color: var(--invalid);
 	pointer-events: none;
 }
