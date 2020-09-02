@@ -10,6 +10,7 @@
 	--dark-background: #0e1d2b;
 	--invalid: #ff603d;
 	--divider: rgba(255, 255, 255, 0.1);
+	--code: rgba(221, 221, 221, 0.15);
 	--header-link: rgba(255, 255, 255, 0.4);
 	--header-link-hover: rgba(255, 255, 255, 0.8);
 
@@ -48,10 +49,11 @@ strong {
 }
 code {
 	font-family: "Inter", sans-serif;
-	background: var(--divider);
+	background: var(--code);
 	border-radius: 4px;
 	padding: 0px 6px;
 	color: var(--accent);
+	font-size: 14px;
 }
 
 /* images */
@@ -84,21 +86,29 @@ details > summary {
 
 /* header and line */
 h1 {
-	border-bottom: solid;
-	border-width: 2px;
-	border-color: var(--divider);
-	font-size: 40px;
-	line-height: 34px;
-	padding-bottom: 12px;
+	font-size: 32px;
+	display: flex;
+	align-items: center;
 }
 h1:first-of-type {
 	margin-top: 0px;
 }
-h2 {
-	font-size: 32px;
+
+h1:after {
+	display: block;
+	content: "";
+	height: 4px;
+	background: rgba(221, 221, 221, 0.15);
+	flex: 1 1 0%;
+	border-radius: 4px;
+	margin-left: 12px;
 }
 hr {
-	color: var(--divider);
+	height: 4px;
+	width: 100%;
+	background: rgba(221, 221, 221, 0.15);
+	border: none;
+	border-radius: 4px;
 }
 
 /* table */
