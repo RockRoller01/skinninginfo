@@ -1,5 +1,5 @@
 ---
-layout: master
+layout: tutorial
 body_class: tutorial_sidenav
 ---
 
@@ -34,6 +34,7 @@ body_class: tutorial_sidenav
 		>Animations</a
 	>
 </nav>
+
 <div class="sidenav_toggle">
 	<svg
 		viewBox="0 0 20 20"
@@ -48,8 +49,11 @@ body_class: tutorial_sidenav
 		></path>
 	</svg>
 </div>
+
 <div class="sidenav_toggle_shadow"></div>
+
 <main class="main">{{ content }}</main>
+
 <script>
 	const toggleshadow = document.querySelector(".sidenav_toggle_shadow");
 	const toggle = document.querySelector(".sidenav_toggle");

@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: resources
 title: Japanese Text on the Default Skin
 description: Japanese Text on the Default Skin
 ---

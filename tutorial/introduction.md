@@ -9,16 +9,16 @@ description: Introduction to skinning.
 There are a few things that you will need, but the most important ones are dedication and an idea. Making a skin takes a lot of time and can be frustrating, especially when things don't work the way you want them to.
 You will need an image editor that supports transparency and, optionally, an audio editor. The following are recommendations, but any software you choose will probably work.
 
-- Image Editors
+-   Image Editors
 
-  - [Paint.NET](https://www.getPaint.NET/) (free)
-  - [GIMP](https://www.gimp.org/) (free)
-  - [Figma](https://www.figma.com/) (free)
-  - [Photoshop](https://www.adobe.com/products/photoshop.html) (paid)
+    -   [Paint.NET](https://www.getPaint.NET/) (free)
+    -   [GIMP](https://www.gimp.org/) (free)
+    -   [Figma](https://www.figma.com/) (free)
+    -   [Photoshop](https://www.adobe.com/products/photoshop.html) (paid)
 
-- Audio Editors
-  - [Audacity](https://www.audacityteam.org/) (free)
-  - [FL Studio](https://www.image-line.com/flstudio/) (free/paid)
+-   Audio Editors
+    -   [Audacity](https://www.audacityteam.org/) (free)
+    -   [FL Studio](https://www.image-line.com/flstudio/) (free/paid)
 
 If you go with Paint<span>.</span>NET you should grab some plugins, they add a lot of great options. [These](http://www.mediafire.com/file/rc9yl9qx2fwqhod/plugins_for_pdn.rar/file) are the plugins that I use.
 It is recommend for you to know how to use your image editor, I won't be able to show you how to do things in your specific editor, there are just way too many programs. You can search for some tutorials online if you are having trouble with something.
@@ -41,11 +41,11 @@ It isn't a good idea to do something that is far beyond your skill level. Sure, 
 
 Once you have your theme you should think of a concept. Just starting without any plan will probably result in wasted work. Your concept should have the following:
 
-- A rough idea of the colour scheme. For the beginning its enough if you e.g. know dark blue + light blue + pink, exact RGB codes aren't a must have for the concept;
-- A fitting font;
-- In what direction do you wanna go? Glowy, minimalistic, realistic? (There are many more options, too many to list.)
-- Optional: Background art, a few skinning styles need those;
-- Anime skins: Images of the character you want to theme it around (You're better off searching for renders on the internet if you're not experienced, but don't worry, you will learn how to render images yourself later on.)
+-   A rough idea of the colour scheme. For the beginning its enough if you e.g. know dark blue + light blue + pink, exact RGB codes aren't a must have for the concept;
+-   A fitting font;
+-   In what direction do you wanna go? Glowy, minimalistic, realistic? (There are many more options, too many to list.)
+-   Optional: Background art, a few skinning styles need those;
+-   Anime skins: Images of the character you want to theme it around (You're better off searching for renders on the internet if you're not experienced, but don't worry, you will learn how to render images yourself later on.)
 
 ## HD/SD elements, Aspect Ratios and Resolution
 
@@ -87,7 +87,7 @@ Images that, for example, have their anchor point set as bottom left can't exten
 
 Last but not least, a few general tips. Some of these things may seem mundane, but some of you might not know about these.
 
-- Whenever you make changes to your skin, you will need to reload it to see the changes. The skin will be automatically reloaded when restarting, but you can do it manually by going into the skin section in the options and changing your skin, or you could simply use the shortcut `CTRL` + `ALT` + `SHIFT` + `S` to reload your skin. I recommend you make a macro for this if you can. Using the shortcut also reloads the skins list, so if you add a new folder to osu!/skins/ it will be recognized without having to restart the game.
-- Work with layers, they make your life a lot easier. When I started I didn't know those existed and it was a pain to create anything. Don't do the same mistake.
-- **Always** save your project files!
-- Different elements have different blend modes and different origin points. These two things will always be listed on the skinnable files list.
+-   Whenever you make changes to your skin, you will need to reload it to see the changes. The skin will be automatically reloaded when restarting, but you can do it manually by going into the skin section in the options and changing your skin, or you could simply use the shortcut `CTRL` + `ALT` + `SHIFT` + `S` to reload your skin. I recommend you make a macro for this if you can. Using the shortcut also reloads the skins list, so if you add a new folder to osu!/skins/ it will be recognized without having to restart the game.
+-   Work with layers, they make your life a lot easier. When I started I didn't know those existed and it was a pain to create anything. Don't do the same mistake.
+-   **Always** save your project files!
+-   Different elements have different blend modes and different origin points. These two things will always be listed on the skinnable files list.

@@ -10,6 +10,8 @@
 	--dark-background: #0e1d2b;
 	--invalid: #ff603d;
 	--divider: rgba(255, 255, 255, 0.1);
+	--header-link: rgba(255, 255, 255, 0.4);
+	--header-link-hover: rgba(255, 255, 255, 0.8);
 
 	/* if the sidenav's width is going to be set manually,
     * change this value to adjust header's positioning too
@@ -143,16 +145,16 @@ table tr > th:first-child {
 .navbar a {
 	float: left;
 	display: inline-flex;
-	color: var(--accent);
+	color: var(--header-link);
 	text-align: center;
 	align-items: center;
 	padding: 17px 19px;
 	text-decoration: none;
 	transition: 200ms ease all;
+	font-weight: 500;
 }
 .navbar a:hover {
-	background: rgba(0, 0, 0, 0.3);
-	color: var(--text);
+	color: var(--header-link-hover);
 }
 
 /* Icons */
