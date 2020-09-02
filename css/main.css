@@ -202,27 +202,9 @@ table tr > th:first-child {
 	line-height: 14px;
 	padding-bottom: 8px;
 }
-.sidenav_toggle {
-	background: var(--background);
-	border-radius: 0 4px 4px 0;
-	position: fixed;
-	transition: transform 250ms;
-	z-index: 3;
-	height: 36px;
-}
-.sidenav_toggle > svg {
-	height: 36px;
-	padding: 4px;
-}
+.sidenav_toggle,
 .sidenav_toggle_shadow {
-	background: var(--background);
-	border-radius: 0 4px 4px 0;
-	box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.12);
-	position: fixed;
-	transition: transform 250ms;
-	height: 36px;
-	width: 36px;
-	z-index: 1;
+	display: none;
 }
 
 .toggle_menu_visible {
@@ -250,5 +232,29 @@ table tr > th:first-child {
 	.main {
 		padding-left: 16px;
 		padding-right: 16px;
+	}
+	.sidenav_toggle {
+		display: block;
+		background: var(--background);
+		border-radius: 0 4px 4px 0;
+		position: fixed;
+		transition: transform 250ms;
+		z-index: 3;
+		height: 36px;
+	}
+	.sidenav_toggle > svg {
+		height: 36px;
+		padding: 4px;
+	}
+	.sidenav_toggle_shadow {
+		display: block;
+		background: var(--background);
+		border-radius: 0 4px 4px 0;
+		box-shadow: 0px 4px 11px rgba(0, 0, 0, 0.12);
+		position: fixed;
+		transition: transform 250ms;
+		height: 36px;
+		width: 36px;
+		z-index: 1;
 	}
 }
