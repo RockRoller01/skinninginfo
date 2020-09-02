@@ -3,6 +3,13 @@ layout: guides
 title: Guides
 ---
 
+<style>
+	.main > ul > li:first-of-type > a {
+		color: var(--invalid);
+		pointer-events: none;
+	}
+</style>
+
 # Guides
 
 -   [Creating your Personal Mixed Skin](./mixing_skins)
