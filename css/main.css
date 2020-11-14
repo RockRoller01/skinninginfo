@@ -41,6 +41,9 @@ body {
 .main ul {
 	list-style-type: disc;
 }
+.main ul li {
+	margin: 12px 0px
+}
 .main ul code {
 	line-height: 26px;
 }
