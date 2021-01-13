@@ -27,3 +27,12 @@ The anchor points of elements are marked by the differently coloured corners
 <img src="song_selection/mode-x-small_16-10.png">
 
 </details>
+<br>
+<details><summary>21:9</summary>
+
+This is based on 1440p 21:9, 21:9 based on 1080p is slightly thinner.
+
+<img src="song_selection/21-9.png">
+<img src="song_selection/mode-x-small_21-9.png">
+
+</details>

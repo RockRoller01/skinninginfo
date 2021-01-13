@@ -18,6 +18,7 @@ Thanks to all these people that helped me get this site up and running:<br>
 
 ## Latest Updates
 
-| Date       |                Type                |
-| ---------- | :--------------------------------: |
-| 29/07/2020 | Guide: Non-Pulsating Combo Numbers |
+| Date       |                  Type                  |
+| ---------- | :------------------------------------: |
+| 29/07/2020 |   Guide: Non-Pulsating Combo Numbers   |
+| 13/01/2021 | Resource: 21:9 Song Selection Template |
