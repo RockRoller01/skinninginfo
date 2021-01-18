@@ -1,0 +1,13 @@
+{
+    "tabWidth": 4,
+    "printWidth": 200,
+    "overrides": [
+        {
+            "files": ["*.js", "*.ts"],
+            "options": {
+                "tabWidth": 4,
+                "semi": false
+            }
+        }
+    ]
+}
