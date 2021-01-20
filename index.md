@@ -51,5 +51,6 @@ Thanks to all these people that helped me get this site up and running:<br>
 
 | Date       |                  Type                  |
 | ---------- | :------------------------------------: |
-| 29/07/2020 |   Guide: Non-Pulsating Combo Numbers   |
+| 20/01/2021 |          Tutorial: Animations          |
 | 13/01/2021 | Resource: 21:9 Song Selection Template |
+| 29/07/2020 |   Guide: Non-Pulsating Combo Numbers   |
