@@ -250,7 +250,7 @@ table tr > th:first-child {
     transform: translateX(var(--sidenav-width));
 }
 
-/* stafff grid */
+/* staff grid */
 .staff-grid {
     display: grid;
     grid-template-columns: repeat(5, auto);
@@ -281,6 +281,20 @@ table tr > th:first-child {
     margin-top: 8px;
     font-size: 24px;
     font-weight: 700;
+}
+
+/* notice */
+.notice p {
+    margin: 0px
+}
+
+.notice {
+    max-width: var(--content-width);
+    margin: auto;
+    border: solid 1px var(--divider);
+    background-color: var(--divider);
+    border-radius: 4px;
+    padding: 16px;
 }
 
 /* @media queries */
