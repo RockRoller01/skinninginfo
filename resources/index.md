@@ -19,6 +19,7 @@ Skin Collections
 Programs
 
 -   [Image Scaler](https://osu.ppy.sh/community/forums/topics/762684)
+-   [Fringe Remover](https://osu.ppy.sh/community/forums/topics/1244643)
 -   [Skin Checker](https://osu.ppy.sh/community/forums/topics/617168)
 -   [Mania Column Centering](https://osu.ppy.sh/community/forums/topics/581972)
 -   [pinga](https://css-ig.net/)
