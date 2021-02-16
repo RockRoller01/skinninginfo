@@ -204,7 +204,7 @@ table tr > th:first-child {
 
 /* notice */
 .notice p {
-    margin: 0px
+    margin: 0px;
 }
 
 .notice {
@@ -220,4 +220,14 @@ table tr > th:first-child {
 .header {
     max-width: var(--content-width);
     margin: auto;
+}
+
+@media (max-width: 1200px) {
+    :root {
+        --content-width: 100vw;
+    }
+    .main {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 }

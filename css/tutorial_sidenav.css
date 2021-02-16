@@ -47,9 +47,6 @@
 }
 
 @media (max-width: 1200px) {
-    :root {
-        --content-width: 100vw;
-    }
     .sidenav {
         transform: translateX(calc(-100% - 20px));
         transition: transform 250ms;
@@ -57,10 +54,6 @@
 
     .mobile-visible {
         transform: none;
-    }
-    .main {
-        padding-left: 16px;
-        padding-right: 16px;
     }
     .sidenav_toggle {
         display: block;
