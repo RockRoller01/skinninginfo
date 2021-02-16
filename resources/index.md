@@ -1,6 +1,8 @@
 ---
 layout: resources
 title: Resources
+description: A list of skinning resources
+current: Resources
 ---
 
 # Resources

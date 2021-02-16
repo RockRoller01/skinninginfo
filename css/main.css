@@ -8,7 +8,7 @@
     --background: #203747;
     --text: rgba(255, 255, 255, 0.8);
     --dark-background: #0e1d2b;
-    --invalid: #ff603d;
+    --invalid: rgba(255, 255, 255, 0.2);
     --divider: rgba(255, 255, 255, 0.1);
     --code: rgba(221, 221, 221, 0.15);
     --header-link: rgba(255, 255, 255, 0.4);
@@ -193,6 +193,21 @@ table tr > th:first-child {
 .navbar a:hover {
     color: var(--header-link-hover);
 }
+.navbar div#navbar_toggle {
+    display: flex;
+    padding: 15px 17px;
+    float: right;
+}
+.navbar div#navbar_toggle svg {
+    height: 24px;
+    width: 24px;
+}
+.navbar-item.float-right {
+    float: right;
+}
+.navbar_options {
+    display: none;
+}
 
 /* Icons */
 .icon {
@@ -222,12 +237,33 @@ table tr > th:first-child {
     margin: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     :root {
         --content-width: 100vw;
     }
     .main {
         padding-left: 16px;
         padding-right: 16px;
+    }
+    .navbar .navbar_options {
+        display: unset;
+    }
+    #links {
+        display: none;
+    }
+    #links.visible {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-item.float-right {
+        float: left;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar_options a,
+    .navbar_options a:hover {
+        color: var(--accent);
     }
 }

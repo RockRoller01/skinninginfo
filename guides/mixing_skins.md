@@ -2,6 +2,7 @@
 layout: guides
 title: Creating your Personal Mixed Skin
 description: This page is under construction.
+current: Guides | Mixing Skins
 ---
 
 # Creating Non-Pulsating Combo Numbers

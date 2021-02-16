@@ -30,3 +30,28 @@
     font-size: 24px;
     font-weight: 700;
 }
+
+.staff-item > .staff-description {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 1200px) {
+    .staff-item > .avatar {
+        width: 64px;
+        height: 64px;
+    }
+    .staff-item {
+        max-width: max-content;
+        flex-direction: row;
+        align-items: center;
+    }
+    .staff-item > .staff-description {
+        margin-left: 8px;
+    }
+    .staff-grid {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(5, auto);
+        grid-gap: 8px;
+    }
+}

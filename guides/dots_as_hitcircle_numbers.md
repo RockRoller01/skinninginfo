@@ -2,6 +2,7 @@
 layout: guides
 title: Using Dots for HitCircle Numbers
 description: This guide will teach you how to use dots for your hitcircle numbers.
+current: Guides | Dot Numbers
 ---
 
 # Creating Instant Fading HitCircles

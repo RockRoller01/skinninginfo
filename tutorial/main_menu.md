@@ -2,6 +2,7 @@
 layout: tutorial-sidenav
 title: Main Menu
 description: Skinning the main menu.
+current: Tutorial | Main Menu
 ---
 
 # Main Menu

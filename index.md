@@ -2,6 +2,7 @@
 layout: home
 title: Home
 description: main site of skinship
+current: Homepage
 ---
 
 # Welcome!
@@ -20,31 +21,15 @@ Thanks to all these people that helped me get this site up and running:<br>
 # Skinship Staff
 
 <ul class="staff-grid">
+  {% for staff in site.data.staff %}
     <li class="staff-item">
-        <img class="avatar" src="https://a.ppy.sh/8388854">
-        <a href="https://osu.ppy.sh/users/8388854" class="name">RockRoller</a>
-        <span class="role">Owner</span>
+        <img class="avatar" src="https://a.ppy.sh/{{ staff.id }}">
+        <div class="staff-description">
+            <a href="https://osu.ppy.sh/users/{{ staff.id }}" class="name">{{ staff.name }}</a>
+            <span class="role">{{ staff.role }}</span>
+        </div>
     </li>
-    <li class="staff-item">
-        <img class="avatar" src="https://a.ppy.sh/12144912">
-        <a href="https://osu.ppy.sh/users/12144912" class="name">Matt2e2</a>
-        <span class="role">Co-Owner</span>
-    </li>
-    <li class="staff-item">
-        <img class="avatar" src="https://a.ppy.sh/10432755">
-        <a href="https://osu.ppy.sh/users/10432755" class="name">vvivi</a>
-        <span class="role">System Admin</span>
-    </li>
-    <li class="staff-item">
-        <img class="avatar" src="https://a.ppy.sh/8214639">
-        <a href="https://osu.ppy.sh/users/8214639" class="name">Roan</a>
-        <span class="role">Bot Wrangler</span>
-    </li>
-    <li class="staff-item">
-        <img class="avatar" src="https://a.ppy.sh/10688456">
-        <a href="https://osu.ppy.sh/users/10688456" class="name">Master-TigerKun</a>
-        <span class="role">Graphic Design</span>
-    </li>
+  {% endfor %}
 </ul>
 
 ## Latest Updates

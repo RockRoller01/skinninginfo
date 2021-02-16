@@ -2,6 +2,7 @@
 layout: resources
 title: Japanese Text on the Default Skin
 description: Japanese Text on the Default Skin
+current: Resources | Japanese Text
 ---
 
 # Japanese Text on the Default Skin

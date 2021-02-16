@@ -2,14 +2,8 @@
 layout: signature
 title: skinship signature
 description: Get our skinship forum signature here!
+current: Signature
 ---
-
-<style>
-    code{
-        display: block;
-        padding: 8px;
-    }
-</style>
 
 # We have new forum signatures!
 

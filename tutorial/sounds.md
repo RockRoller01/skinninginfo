@@ -2,6 +2,7 @@
 layout: tutorial-sidenav
 title: Sounds
 description: Skinning the sounds.
+current: Tutorial | Sounds
 ---
 
 # Sounds

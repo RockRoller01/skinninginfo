@@ -2,6 +2,7 @@
 layout: resources
 title: Song Selection Template
 description: song selection template
+current: Resources | Song Selection Template
 ---
 
 # Song Selection Template

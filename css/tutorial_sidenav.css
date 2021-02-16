@@ -46,7 +46,7 @@
     transform: translateX(var(--sidenav-width));
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1250px) {
     .sidenav {
         transform: translateX(calc(-100% - 20px));
         transition: transform 250ms;
