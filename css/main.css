@@ -221,14 +221,21 @@ table tr > th:first-child {
 .notice p {
     margin: 0px;
 }
+.notice img {
+    border-radius: 4px;
+    margin: 0px;
+    object-fit: cover;
+}
 
 .notice {
+    display: flex;
+    align-items: center;
     max-width: var(--content-width);
     margin: auto;
-    border: solid 1px var(--divider);
-    background-color: var(--divider);
     border-radius: 4px;
-    padding: 16px;
+    padding: 0px;
+    height: 120px;
+    overflow: hidden;
 }
 
 /* @media queries */
@@ -265,5 +272,10 @@ table tr > th:first-child {
     .navbar_options a,
     .navbar_options a:hover {
         color: var(--accent);
+    }
+
+    .notice{
+        margin-left: 16px;
+        margin-right: 16px;
     }
 }

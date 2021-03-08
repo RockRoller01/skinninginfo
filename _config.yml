@@ -2,7 +2,7 @@ title: Skinning Tutorial
 
 baseurl: ""
 
-show_notice: false
+show_notice: true
 
 exclude:
     - README.md
