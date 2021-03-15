@@ -26,7 +26,7 @@ description:
     -   `guides` for all /guides/ articles
     -   `resources` for all /resources/ articles
     -   All other layouts are for other general things or for specific pages. These 3 should fit all other categories.
--   `title` - This defines the title of the site and will show up as the name of the tab.
+-   `title` - This defines the title of the site and will show up as the name of the tab. It will also be displayed in the header on mobile pages. All titles should follow `Section | Title`, where section is either Guides, Resources, Tutorial or in case of a generic page skinship.
 -   `description` - This defines the information shown in embeds and search results. Keep it short but concise.
 
 ## Formatting
