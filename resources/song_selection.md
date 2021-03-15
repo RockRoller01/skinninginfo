@@ -17,15 +17,15 @@ The anchor points of elements are marked by the differently coloured corners
 
 <details><summary>16:9</summary>
 
-<img src="song_selection/16-9.png">
-<img src="song_selection/mode-x-small_16-9.png">
+<img src="img/song_selection/16-9.png">
+<img src="img/song_selection/mode-x-small_16-9.png">
 
 </details>
 <br>
 <details><summary>16:10</summary>
 
-<img src="song_selection/16-10.png">
-<img src="song_selection/mode-x-small_16-10.png">
+<img src="img/song_selection/16-10.png">
+<img src="img/song_selection/mode-x-small_16-10.png">
 
 </details>
 <br>
@@ -33,7 +33,7 @@ The anchor points of elements are marked by the differently coloured corners
 
 This is based on 1440p 21:9, 21:9 based on 1080p is slightly thinner.
 
-<img src="song_selection/21-9.png">
-<img src="song_selection/mode-x-small_21-9.png">
+<img src="img/song_selection/21-9.png">
+<img src="img/song_selection/mode-x-small_21-9.png">
 
 </details>
