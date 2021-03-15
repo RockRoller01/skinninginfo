@@ -1,8 +1,7 @@
 ---
 layout: home
-title: Home
 description: main site of skinship
-current: Homepage
+title: skinship | Home
 ---
 
 # Welcome!

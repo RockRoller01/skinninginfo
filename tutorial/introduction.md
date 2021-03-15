@@ -1,8 +1,7 @@
 ---
 layout: tutorial-sidenav
-title: Introduction
 description: Introduction to skinning.
-current: Tutorial | Introduction
+title: Tutorial | Introduction
 ---
 
 # Introduction

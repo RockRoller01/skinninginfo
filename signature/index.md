@@ -1,8 +1,7 @@
 ---
 layout: signature
-title: skinship signature
 description: Get our skinship forum signature here!
-current: Signature
+title: skinship | Signature
 ---
 
 # We have new forum signatures!

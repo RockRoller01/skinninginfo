@@ -1,8 +1,7 @@
 ---
 layout: tutorial-sidenav
-title: Cursor
 description: This page is under construction.
-current: Tutorial | Cursor
+title: Tutorial | Cursor
 ---
 
 Nothing here yet.

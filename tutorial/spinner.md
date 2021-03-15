@@ -1,8 +1,7 @@
 ---
 layout: tutorial-sidenav
-title: Spinner
 description: This page is under construction.
-current: Tutorial | Spinner
+title: Tutorial | Spinner
 ---
 
 Nothing here yet.

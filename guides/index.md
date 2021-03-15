@@ -1,8 +1,7 @@
 ---
 layout: guides
-title: Guides
 description: skinning guides
-current: Guides
+title: skinship | Guides
 ---
 
 <style>
