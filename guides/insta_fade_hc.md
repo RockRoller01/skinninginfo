@@ -1,10 +1,10 @@
 ---
 layout: guides
 description: This guide will teach you how to convert hitcircles into instant fading ones.
-title: Guides | Instant Fading HitCircles
+title: Guides | Instant Fading Hitcircles
 ---
 
-# Creating Instant Fading HitCircles
+# Creating Instant Fading Hitcircles
 
 This guide will teach you how to convert hitcircles into instant fading ones. You should know what SD and HD images are, if you don't, please read [this part](https://rockroller01.github.io/skinninginfo/tutorial/introduction#hdsd-elements-aspect-ratios-and-resolution) of the skinning tutorial.
 
