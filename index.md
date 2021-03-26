@@ -33,11 +33,11 @@ Thanks to all these people that helped me get this site up and running:<br>
 
 ## Latest Updates
 
-| Date       |                  Type                  |
-| ---------- | :------------------------------------: |
-| 26/03/2021 |    Guide: Creating your own Personal Mixed Skin     |
-| 15/03/2021 |    Guide: How to import osu! skins     |
-| 09/02/2021 |        Resource: Fringe Remover        |
-| 20/01/2021 |          Tutorial: Animations          |
-| 13/01/2021 | Resource: 21:9 Song Selection Template |
-| 29/07/2020 |   Guide: Non-Pulsating Combo Numbers   |
+| Date       |                     Type                     |
+| ---------- | :------------------------------------------: |
+| 26/03/2021 | Guide: Creating your own Personal Mixed Skin |
+| 15/03/2021 |       Guide: How to Import osu! Skins        |
+| 09/02/2021 |           Resource: Fringe Remover           |
+| 20/01/2021 |             Tutorial: Animations             |
+| 13/01/2021 |    Resource: 21:9 Song Selection Template    |
+| 29/07/2020 |      Guide: Non-pulsating Combo Numbers      |
