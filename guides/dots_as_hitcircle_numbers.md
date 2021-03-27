@@ -4,7 +4,7 @@ description: This guide will teach you how to use dots for your hitcircle number
 title: Guides | Dot Numbers
 ---
 
-# Using Dots as Hitcircle Numbers
+# Using Dots as HitCircle Numbers
 
 This guide will teach you how to use dots for your hitcircle numbers. You should know what SD and HD images are, if you don't, please read [this part](https://rockroller01.github.io/skinninginfo/tutorial/introduction#hdsd-elements-aspect-ratios-and-resolution) of the skinning tutorial.
 
