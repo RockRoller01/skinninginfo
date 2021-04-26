@@ -40,4 +40,4 @@ Templates
 
 -   [Song Selection Template](./song_selection)
 -   [Galvit's Template Skin](https://osu.ppy.sh/community/forums/topics/923143)
--   [Menu Background Template](.resources/img/menu-background_template/menu-background_template.png)
+-   [Menu Background Template](img/menu-background_template/menu-background_template.png)
