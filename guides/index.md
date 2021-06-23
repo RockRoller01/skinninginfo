@@ -6,6 +6,7 @@ title: skinship | Guides
 
 # Guides
 
+-   [Centring Accuracy on the Playfield](./centering_accuracy)
 -   [Creating your Personal Mixed Skin](./mixing_skins)
 -   [Creating Instant Fading HitCircles](./insta_fade_hc)
 -   [Creating Non-Pulsating Combo Numbers](./non_pulsating_combo_numbers)
