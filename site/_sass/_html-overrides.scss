@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $background;
+    font-family: "Inter", sans-serif;
+    color: $text-colour;
+    margin: 0px;
+    width: 100%;
+    min-height: 100vh;
+    overflow-y: scroll;
+}
+
+a {
+    color: $accent-blue;
+    text-decoration: none;
+    transition: 100ms ease all;
+    &:hover {
+        color: $accent-yellow;
+    }
+}
