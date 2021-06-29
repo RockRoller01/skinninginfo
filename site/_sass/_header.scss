@@ -1,0 +1,41 @@
+header {
+    transition: 200ms ease all;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	nav.navbar {
+		margin: 0 auto;
+		margin-bottom: 16px;
+		font-weight: 700;
+		max-width: var(--content-width);
+		background-color: $primary;
+		box-shadow: $shadow;
+		border-radius: 0 0 $radius $radius;
+		overflow: hidden;
+		a {
+			float: left;
+			display: inline-flex;
+			color: $header-link;
+			text-align: center;
+			align-items: center;
+			padding: 17px 19px;
+			transition: 200ms ease all;
+			font-weight: 500;
+			&:hover {
+				color: $header-link-hover;
+				fill: $header-link-hover;
+			}
+		}
+		.icon {
+			height: 20px;
+			width: 20px;
+			margin-right: 8px;
+			&.github {
+				fill: $header-link;
+			}
+		}
+		.float-right {
+			float: right;
+		}
+	}
+}
