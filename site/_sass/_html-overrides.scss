@@ -3,6 +3,8 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
     background-color: $background;
     font-family: "Inter", sans-serif;
     color: $text-colour;
@@ -10,6 +12,11 @@ body {
     width: 100%;
     min-height: 100vh;
     overflow-y: scroll;
+}
+
+main {
+    margin: 0px auto;
+    width: var(--content-width);
 }
 
 a {

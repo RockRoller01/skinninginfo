@@ -1,0 +1,29 @@
+h1,
+h2 {
+    color: $accent-blue;
+    display: flex;
+    align-items: center;
+    &:after {
+        display: block;
+        content: "";
+        height: 4px;
+        background: rgba(221, 221, 221, 0.15);
+        flex: 1 1 0%;
+        border-radius: 4px;
+        margin-left: 12px;
+    }
+}
+h1 {
+    font-size: 32px;
+}
+h2 {
+    font-size: 24px;
+}
+
+hr {
+    height: 4px;
+    width: 100%;
+    background: rgba(221, 221, 221, 0.15);
+    border: none;
+    border-radius: 4px;
+}

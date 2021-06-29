@@ -1,0 +1,20 @@
+.staff-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    .staff-item {
+        display: flex;
+        gap: inherit;
+        align-items: center;
+        .avatar {
+            width: 64px;
+            height: 64px;
+            border-radius: 8px;
+            background-color: $primary-80;
+        }
+        .staff-description {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+}
