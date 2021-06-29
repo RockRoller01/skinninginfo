@@ -1,0 +1,135 @@
+@import "theme";
+
+:root {
+    --content-width: 1320px;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    width: max-content;
+}
+.avatar {
+    border-radius: 100%;
+    background-color: $divider;
+}
+
+.icon {
+    user-select: none;
+}
+
+.date {
+    color: $text-colour-muted;
+    font-size: 12px;
+    width: max-content;
+}
+
+.button {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $radius;
+    color: $text-colour;
+    box-shadow: $shadow;
+    margin-bottom: 8px;
+    .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+    &.primary {
+        background: linear-gradient(135deg, #3dadff 0%, #2664c0 100%);
+    }
+    &.secondary {
+        background-color: $button-grey;
+    }
+    &:hover {
+        background: $button-gradient-hover;
+        box-shadow: $shadow-hover;
+        color: $text-colour;
+    }
+}
+
+.dropdown-selector {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    background-color: $primary-80;
+    border-radius: $radius;
+    position: relative;
+    select {
+        cursor: pointer;
+        background: none;
+        background-color: inherit;
+        font-size: 14px;
+        color: $text-colour;
+        padding: 8px 19px 8px 4px;
+        border: none;
+        border-radius: inherit;
+        width: 100%;
+        appearance: none;
+        position: relative;
+        z-index: 1;
+        option {
+            background-color: inherit;
+        }
+    }
+    .icon {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+        right: 0px;
+        z-index: 2;
+    }
+}
+
+/**
+ * Skin listing
+ */
+.skin-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $skin-grid-gap;
+}
+#skin-grid-results:empty {
+    display: none;
+}
+
+@media (max-width: 1320px) {
+    :root {
+        --content-width: 100vw;
+    }
+
+    main {
+        padding: 0px 16px;
+    }
+}
+
+@media (max-width: 900px) {
+    .skin-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 600px) {
+    .skin-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+/**
+ * These 3 classes should NEVER be used for regular styling, these are only helper classes for JS
+ */
+.hidden {
+    display: none !important;
+}
+.grid {
+    display: grid !important;
+}
+.flex {
+    display: flex !important;
+}
