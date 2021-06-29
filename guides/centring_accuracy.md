@@ -32,10 +32,11 @@ This part of the guide will teach you how to perfectly centre the accuracy count
 3. Find the width of your `score-0(@2x).png` file. All of your score number files should be the same resolution. Also find the width of your `score-dot(@2x).png` or `score-comma(@2x).png` if your locale uses commas for decimals.
 4. Find your score number overlap. This is located inside the skin.ini at the `ScoreOverlap:` command under `[Fonts]`. If it is not specified, it will be `-2` by default.
 5. Open your `score-percent(@2x).png` file in an image editor and use the following formula to find the width which the file will need to be:
-$\frac{(a / 2) - (5b - 4c)/2}{0.57}$ for SD, or $\frac{(a / 2) - (5b - 8c)/2}{0.57}$ for HD
+$\frac{a / 2 - (b/2 + 2c + 3d)}{0.57}$ for SD, or $\frac{a / 2 - (b/2 + 2c + 6d)}{0.57}$ for HD
 Where: 
 `a` is the width of your osu! resolution
-`b` is the width of `score-0(@2x).png`
-`c` is the value of `ScoreOverlap:` in the skin.ini.
+`b` is the width of `score-dot(@2x)` or `score-comma(@2x)`
+`c` is the width of `score-0(@2x).png`
+`d` is the value of `ScoreOverlap:` in the skin.ini.
 6. Change the canvas width of `score-percent(@2x).png` to the number you got from step 5.
 7. Same as step 5 in the `Roughly centring accuracy` section of this guide.
