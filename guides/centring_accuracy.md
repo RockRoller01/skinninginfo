@@ -19,7 +19,7 @@ This part of the guide will teach you how to roughly centre the accuracy counter
 1. Open your skin's folder. The folder can be found by navigating to the `Skins\` directory of your osu! installation. By default this will be located at `C:\Users\[User Name]\AppData\Local\osu!\Skins\`. You can locate this by pressing `CTRL + O` in the osu! window to bring up settings, clicking `Open osu! folder`, and navigating to the `Skins\` directory. Alternatively, you can go to settings, navigate to the `SKIN` section, and click `Open current skin folder`.
 2. Find your osu! resolution's width. This will be the first number in your resolution setting (e.g. 1920 is the width of the resolution 1920x1080). You can find this by opening up osu! settings, navigating to the `GRAPHICS` section, and viewing the `Resolution:` setting.
 3. Use the following formula to find the canvas width that your `score-percent(@2x).png` file will need to be:
-$\frac{width / 2}{0.57}$
+(width / 2)/0.57
 4. Using an image editor, change the canvas width of `score-percent(@2x).png` to the number you got from step 3.
 5. Reload your skin using `CTRL + ALT + SHIFT + S`. Your accuracy will now be displayed in the centre of the playfield.
 
