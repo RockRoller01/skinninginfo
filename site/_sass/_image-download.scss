@@ -1,0 +1,30 @@
+.image-dl-container {
+    position: relative;
+    .download {
+        display: none;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        margin: 16px;
+        padding: 8px;
+        gap: 4px;
+        border-radius: $radius;
+
+        background: $button-gradient;
+        color: $text-colour;
+        .icon {
+            width: 16px;
+            height: 16px;
+        }
+        &:hover {
+            background: $button-gradient-hover;
+        }
+    }
+    &:hover {
+        .download {
+            display: flex;
+        }
+    }
+}

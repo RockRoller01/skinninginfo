@@ -1,0 +1,38 @@
+---
+layout: master
+body_class: tutorial_sidenav
+---
+<nav class="sidenav">
+	<a href="{{site.baseurl}}/tutorial/introduction">Introduction</a>
+	<a href="{{site.baseurl}}/tutorial/getting_started">Getting Started</a>
+	<h1 id="Menus">Menus</h1>
+	<a href="{{site.baseurl}}/tutorial/song_selection">Song Selection</a>
+	<a class="unfinished">Ranking Panel</a>
+	<a class="unfinished">Mod Icons and Button</a>
+	<a class="unfinished">Pause- and Failscreen</a>
+	<a href="{{site.baseurl}}/tutorial/main_menu">Main Menu</a>
+	<h1 id="Gameplay">Gameplay</h1>
+	<a class="unfinished">Cursor</a>
+	<a class="unfinished">Playfield</a>
+	<a class="unfinished">Hitcircle and Slider</a>
+	<a class="unfinished">Spinner</a>
+	<h1 id="Miscellaneous">Miscellaneous</h1>
+	<a href="{{site.baseurl}}/tutorial/sounds">Sounds</a>
+	<a href="{{site.baseurl}}/tutorial/releasing">Releasing your Skin</a>
+	<a href="{{site.baseurl}}/tutorial/animations">Animations</a>
+</nav>
+
+<div class="sidenav_toggle">
+	{% include icons/menu.html %}
+</div>
+
+<script>
+	const toggle = document.querySelector(".sidenav_toggle");
+	const sidebar = document.querySelector(".sidenav");
+	toggle.addEventListener("click", () => {
+		sidebar.classList.toggle("menu_visible");
+		toggle.classList.toggle("menu_visible");
+	});
+</script>
+
+{{ content }}

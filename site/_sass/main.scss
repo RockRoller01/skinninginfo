@@ -1,0 +1,63 @@
+@import "theme";
+@import "html-overrides";
+@import "footer";
+@import "header";
+@import "staff-grid";
+@import "headings";
+@import "table";
+@import "error";
+@import "tutorial-sidenav";
+@import "image-download";
+
+:root {
+    --content-width: 1320px;
+    --accent: #3dadff;
+    --sidenav-width: 200px;
+}
+
+.icon {
+    user-select: none;
+}
+
+.button {
+    width: 100%;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: $radius;
+    color: $text-colour;
+    box-shadow: $shadow;
+    margin-bottom: 8px;
+    .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 8px;
+    }
+    &.primary {
+        background: $button-gradient;
+    }
+    &.secondary {
+        background-color: $button-grey;
+    }
+    &:hover {
+        background: $button-gradient-hover;
+        box-shadow: $shadow-hover;
+        color: $text-colour;
+    }
+}
+
+/* images */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 8px 0px;
+}
+.img-text-right {
+    float: right;
+    margin-left: 16px;
+}
+.img-text-left {
+    float: left;
+    margin-right: 16px;
+}

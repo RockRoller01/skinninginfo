@@ -1,0 +1,31 @@
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    margin-top: auto;
+    a {
+        transition: 200ms ease all;
+        display: flex;
+        align-items: center;
+        margin: 0px 16px;
+
+        color: $text-colour-muted;
+        fill: $text-colour-muted;
+        &:hover {
+            color: $text-colour;
+            fill: $text-colour;
+        }
+    }
+    .icon {
+        width: 20px;
+        height: 20px;
+        margin-right: 4px;
+        &.github,
+        &.gitlab {
+            width: 18px;
+            height: 18px;
+            margin-right: 6px;
+        }
+    }
+}

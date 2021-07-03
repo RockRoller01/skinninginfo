@@ -1,0 +1,70 @@
+header {
+    transition: 200ms ease all;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    nav.navbar {
+        margin: 0 auto;
+        margin-bottom: 16px;
+        font-weight: 700;
+        max-width: var(--content-width);
+        background-color: $primary;
+        box-shadow: $shadow;
+        border-radius: 0 0 $radius $radius;
+        overflow: hidden;
+        display: flex;
+        .navbar-item {
+            display: inline-flex;
+            color: $header-link;
+            text-align: center;
+            align-items: center;
+            padding: 17px 19px;
+            transition: 200ms ease all;
+            font-weight: 500;
+            cursor: pointer;
+            &:hover {
+                color: $header-link-hover;
+                fill: $header-link-hover;
+            }
+        }
+        .icon {
+            height: 20px;
+            width: 20px;
+            margin-right: 8px;
+            &.github {
+                fill: $header-link;
+            }
+        }
+        .float-right {
+            float: right;
+        }
+        .menu {
+            display: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            .icon {
+                margin: 0;
+            }
+        }
+        &.menu-expanded {
+            flex-direction: column;
+            a.navbar-item {
+                display: inline-flex;
+            }
+        }
+    }
+    .highlight {
+        color: $accent-blue !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar-item:not(.highlight):not(.menu) {
+        display: none;
+    }
+    .menu {
+        display: inline-flex !important;
+        float: right;
+    }
+}

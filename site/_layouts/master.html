@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta content="tutorial.skinship" property="og:site_name">
+  {% if page.title %}
+  <meta content="{{ page.title }}" property="og:title">
+  {% else %}
+  <meta content="{{ site.title }}" property="og:title">
+  {% endif %}
+  {% if page.title %}
+  <meta content="article" property="og:type">
+  {% else %}
+  <meta content="website" property="og:type">
+  {% endif %}
+  {% if page.description %}
+  <meta content="{{ page.description }}" property="og:description">
+  {% endif %}
+  {% if page.url %}
+  <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+  {% endif %}
+  <meta content="{{ site.url }}/img/embed_icon.png" property="og:image">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="icon" href="{{site.baseurl}}/favicon.ico" type="image/x-icon">
+  <title>{{ page.title }}</title>
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="{{ layout.body_class }}">
+    <header class="header">
+        <nav class="navbar">
+            <a href="{{site.baseurl}}/" class="navbar-item {% if page.highlight %}{% else %}highlight{% endif %}">{% include icons/home.html %}Home</a>
+            <a href="{{site.baseurl}}/tutorial/introduction" class="navbar-item {% if page.highlight == "tutorial"%}highlight{% endif %}">{% include icons/academic-cap.html %}Tutorial</a>
+            <a href="{{site.baseurl}}/guides" class="navbar-item {% if page.highlight == "guides"%}highlight{% endif %}">{% include icons/news.html %}Guides</a>
+            <a href="{{site.baseurl}}/resources" class="navbar-item {% if page.highlight == "resources"%}highlight{% endif %}">{% include icons/archive.html %}Resources</a>
+            <a href="{{site.baseurl}}/signature" class="navbar-item {% if page.highlight == "signature"%}highlight{% endif %}">{% include icons/image.html %}Signature</a>
+            <div class="menu navbar-item">
+                {% include icons/menu.html %}
+            </div>
+        </nav>
+    </header>
+    <main>
+        {{ content }}
+    </main>
+    <footer>
+        <a href="https://github.com/RockRoller01/skinninginfo" target="_blank" rel="noopener">{% include icons/github.html %} GitHub</a>
+        <a href="https://discord.skinship.xyz/" target="_blank" rel="noopener">{% include icons/discord.html %} Discord</a>
+        <a href="/privacy">{% include icons/lock-solid.html %} Privacy</a>
+    </footer>
+</body>
+<script>
+  document.querySelector(".menu").addEventListener("click", () => {
+    document.querySelector(".navbar").classList.toggle("menu-expanded");
+  });
+</script>
+
+</html>

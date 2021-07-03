@@ -1,0 +1,16 @@
+.error-404 {
+    display: flex;
+    flex-direction: column;
+    .code {
+        width: max-content;
+        margin: auto;
+        font-size: 96px;
+        color: $accent-blue;
+    }
+    .shrug {
+        width: max-content;
+        margin: auto;
+        font-size: 32px;
+        color: $text-colour;
+    }
+}

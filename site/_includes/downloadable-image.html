@@ -1,0 +1,9 @@
+<div class="image-dl-container {{ include.class }}" style="max-width: {{ include.width }};">
+    <img src="{{ include.src }}">
+    <a href="{{ include.src }}" class="download" download="">
+        {% include icons/download.html %}
+        <span>
+            Download
+        </span>
+    </a>
+</div>
