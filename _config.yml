@@ -6,3 +6,6 @@ exclude:
     - README.md
 
 source: site
+
+sass:
+  source_dir: _sass
