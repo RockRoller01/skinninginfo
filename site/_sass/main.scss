@@ -4,9 +4,11 @@
 @import "header";
 @import "staff-grid";
 @import "headings";
+@import "table";
 
 :root {
     --content-width: 1320px;
+    --accent: #3dadff;
 }
 
 .icon {
@@ -39,4 +41,19 @@
         box-shadow: $shadow-hover;
         color: $text-colour;
     }
+}
+
+/* images */
+img {
+    max-width: 100%;
+    display: block;
+    margin: 8px 0px;
+}
+.img-text-right {
+    float: right;
+    margin-left: 16px;
+}
+.img-text-left {
+    float: left;
+    margin-right: 16px;
 }
