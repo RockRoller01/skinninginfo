@@ -1,5 +1,6 @@
 ---
-layout: resources
+layout: master
+highlight: resources
 description: Japanese Text on the Default Skin
 title: Resources | Japanese Text
 ---

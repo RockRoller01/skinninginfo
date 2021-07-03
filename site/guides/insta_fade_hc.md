@@ -1,5 +1,6 @@
 ---
-layout: guides
+layout: master
+highlight: guides
 description: This guide will teach you how to convert hitcircles into instant fading ones.
 title: Guides | Instant Fading HitCircles
 ---

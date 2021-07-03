@@ -1,5 +1,6 @@
 ---
-layout: guides
+layout: master
+highlight: guides
 description: This page is under construction.
 title: Guides | Non-Pulsating Combo Numbers
 ---

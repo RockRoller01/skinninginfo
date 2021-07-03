@@ -1,5 +1,6 @@
 ---
-layout: guides
+layout: master
+highlight: guides
 description: This guide will teach you how to use dots for your hitcircle numbers.
 title: Guides | Dot Numbers
 ---

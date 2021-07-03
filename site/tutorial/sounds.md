@@ -1,5 +1,6 @@
 ---
 layout: tutorial-sidenav
+highlight: tutorial
 description: Skinning the sounds.
 title: Tutorial | Sounds
 ---

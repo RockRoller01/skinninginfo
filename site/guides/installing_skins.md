@@ -1,5 +1,6 @@
 ---
-layout: guides
+layout: master
+highlight: guides
 description: "This guide teaches you how to import skins of .osk, .zip, .rar, or .7z formats."
 title: Guides | Importing osu! skins
 ---

@@ -1,5 +1,6 @@
 ---
-layout: signature
+layout: master
+highlight: signature
 description: Get our skinship forum signature here!
 title: skinship | Signature
 ---

@@ -31,6 +31,18 @@
 </head>
 
 <body class="{{ layout.body_class }}">
+    <style>
+        {% if page.highlight %}
+            .header a[href*="{{ page.highlight }}"] {
+                color: var(--accent) !important
+            }
+        {% else %}
+            .header a[href="/"] {
+                color: var(--accent) !important
+            }
+        {% endif %}
+    </style>
+
     <header class="header">
         <nav class="navbar">
             <a href="{{site.baseurl}}/">{% include icons/home.html %}Home</a>

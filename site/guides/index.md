@@ -1,5 +1,6 @@
 ---
-layout: guides
+layout: master
+highlight: guides
 description: skinning guides
 title: skinship | Guides
 ---

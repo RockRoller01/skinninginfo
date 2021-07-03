@@ -1,5 +1,6 @@
 ---
-layout: guides
+layout: master
+highlight: guides
 title: Guides | Mixing Skins
 description: This guide teaches you how to create your own personal mixed skin.
 ---

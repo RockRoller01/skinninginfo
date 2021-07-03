@@ -1,5 +1,6 @@
 ---
-layout: resources
+layout: master
+highlight: resources
 description: A list of skinning resources
 title: skinship | Resources
 ---

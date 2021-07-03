@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: master
 description: main site of skinship
 title: skinship | Home
 ---

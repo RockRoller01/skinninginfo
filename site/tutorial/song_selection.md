@@ -1,5 +1,6 @@
 ---
 layout: tutorial-sidenav
+highlight: tutorial
 description: Skinning the song selection.
 title: Tutorial | Song Selection
 ---

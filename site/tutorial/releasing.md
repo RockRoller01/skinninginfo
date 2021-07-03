@@ -1,5 +1,6 @@
 ---
 layout: tutorial-sidenav
+highlight: tutorial
 description: Releasing your skin.
 title: Tutorial | Releasing
 ---

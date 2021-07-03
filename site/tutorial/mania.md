@@ -1,5 +1,6 @@
 ---
 layout: tutorial-sidenav
+highlight: tutorial
 description: Skinning Mania Gameplay.
 title: Tutorial | Mania
 ---

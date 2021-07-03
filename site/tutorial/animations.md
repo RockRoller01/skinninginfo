@@ -1,7 +1,9 @@
 ---
 layout: tutorial-sidenav
+highlight: tutorial
 description: Animating skin files.
 title: Tutorial | Animations
+highlight: tutorial
 ---
 
 # Animations

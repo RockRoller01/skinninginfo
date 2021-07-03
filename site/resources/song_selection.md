@@ -1,5 +1,6 @@
 ---
-layout: resources
+layout: master
+highlight: resources
 description: song selection template
 title: Resources | Song Selection Template
 ---
