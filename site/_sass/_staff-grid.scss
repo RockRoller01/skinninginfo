@@ -1,16 +1,20 @@
 .staff-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 16px;
+    gap: 24px;
+    padding-left: 0;
     .staff-item {
         display: flex;
-        gap: inherit;
+        gap: 12px;
         align-items: center;
+        height: max-content;
+        margin: 0;
         .avatar {
             width: 64px;
             height: 64px;
             border-radius: 8px;
             background-color: $primary-80;
+            margin: 0;
         }
         .staff-description {
             display: flex;
