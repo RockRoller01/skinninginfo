@@ -30,6 +30,7 @@ If you want to contribute to this site, please contact me beforehand. Just openi
 
 | Date       |                  Type                  |
 | ---------- | :------------------------------------: |
+| 29/06/2021 |        Guide: Centring Accuracy        |
 | 27/03/2021 |          Guide: Mixing Skins           |
 | 15/03/2021 |    Guide: How to import osu! skins     |
 | 09/02/2021 |        Resource: Fringe Remover        |
