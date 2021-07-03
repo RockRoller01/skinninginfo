@@ -6,10 +6,12 @@
 @import "headings";
 @import "table";
 @import "error";
+@import "tutorial_sidenav";
 
 :root {
     --content-width: 1320px;
     --accent: #3dadff;
+    --sidenav-width: 200px;
 }
 
 .icon {

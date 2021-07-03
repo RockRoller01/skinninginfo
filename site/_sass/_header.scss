@@ -12,7 +12,7 @@ header {
 		box-shadow: $shadow;
 		border-radius: 0 0 $radius $radius;
 		overflow: hidden;
-		a {
+		.navbar-item {
 			float: left;
 			display: inline-flex;
 			color: $header-link;
@@ -21,6 +21,7 @@ header {
 			padding: 17px 19px;
 			transition: 200ms ease all;
 			font-weight: 500;
+            cursor: pointer;
 			&:hover {
 				color: $header-link-hover;
 				fill: $header-link-hover;
@@ -37,5 +38,8 @@ header {
 		.float-right {
 			float: right;
 		}
+        .menu {
+            display: none;
+        }
 	}
 }

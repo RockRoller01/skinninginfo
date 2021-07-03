@@ -45,14 +45,19 @@
 
     <header class="header">
         <nav class="navbar">
-            <a href="{{site.baseurl}}/">{% include icons/home.html %}Home</a>
-            <a href="{{site.baseurl}}/tutorial/introduction">{% include icons/academic-cap.html %}Tutorial</a>
-            <a href="{{site.baseurl}}/guides">{% include icons/news.html %}Guides</a>
-            <a href="{{site.baseurl}}/resources">{% include icons/archive.html %}Resources</a>
-            <a href="{{site.baseurl}}/signature">{% include icons/image.html %}Signature</a>
+            <a href="{{site.baseurl}}/" class="navbar-item">{% include icons/home.html %}Home</a>
+            <a href="{{site.baseurl}}/tutorial/introduction" class="navbar-item">{% include icons/academic-cap.html %}Tutorial</a>
+            <a href="{{site.baseurl}}/guides" class="navbar-item">{% include icons/news.html %}Guides</a>
+            <a href="{{site.baseurl}}/resources" class="navbar-item">{% include icons/archive.html %}Resources</a>
+            <a href="{{site.baseurl}}/signature" class="navbar-item">{% include icons/image.html %}Signature</a>
+            <div class="menu navbar-item">
+                {% include icons/menu.html %}
+            </div>
         </nav>
     </header>
-  {{ content }}
+    <main>
+        {{ content }}
+    </main>
     <footer>
         <a href="https://github.com/RockRoller01/skinninginfo" target="_blank" rel="noopener">{% include icons/github.html %} GitHub</a>
         <a href="https://discord.skinship.xyz/" target="_blank" rel="noopener">{% include icons/discord.html %} Discord</a>
