@@ -8,4 +8,4 @@ exclude:
 source: site
 
 sass:
-  source_dir: _sass
+  sass_dir: _sass
