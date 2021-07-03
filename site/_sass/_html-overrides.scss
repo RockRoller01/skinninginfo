@@ -50,3 +50,15 @@ code {
     color: $accent-blue;
     font-size: 14px;
 }
+
+details > summary {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px;
+    width: max-content;
+    user-select: none;
+    background: linear-gradient(135deg, #3dadff 0%, #2664c0 100%);
+    &:hover {
+        background: linear-gradient(135deg, #57b8ff 0%, #2b6fd5 100%);
+    }
+}
