@@ -7,6 +7,7 @@
 @import "table";
 @import "error";
 @import "tutorial-sidenav";
+@import "image-download";
 
 :root {
     --content-width: 1320px;
@@ -34,7 +35,7 @@
         margin-right: 8px;
     }
     &.primary {
-        background: linear-gradient(135deg, #3dadff 0%, #2664c0 100%);
+        background: $button-gradient;
     }
     &.secondary {
         background-color: $button-grey;

@@ -57,8 +57,8 @@ details > summary {
     padding: 8px;
     width: max-content;
     user-select: none;
-    background: linear-gradient(135deg, #3dadff 0%, #2664c0 100%);
+    background: $button-gradient;
     &:hover {
-        background: linear-gradient(135deg, #57b8ff 0%, #2b6fd5 100%);
+        background: $button-gradient-hover;
     }
 }
