@@ -1,6 +1,5 @@
 ---
-layout: master
-highlight: guides
+layout: guides
 title: Guides | Centring Accuracy 
 description: This guide teaches you how to centre the accuracy on the playfield.
 ---
