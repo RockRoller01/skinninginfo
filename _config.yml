@@ -2,8 +2,6 @@ title: Skinning Tutorial
 
 baseurl: ""
 
-show_notice: false
-
 exclude:
     - README.md
 

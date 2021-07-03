@@ -1,0 +1,44 @@
+/* spoilerbox */
+details > summary {
+    cursor: pointer;
+    background: var(--dark-background);
+    border-radius: 4px;
+    padding: 2px 6px;
+    width: 80px;
+}
+
+@media (max-width: 1250px) {
+    :root {
+        --content-width: 100vw;
+    }
+    .main {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .navbar .navbar_options {
+        display: unset;
+    }
+    #links {
+        display: none;
+    }
+    #links.visible {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar-item.float-right {
+        float: left;
+    }
+    .navbar {
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar_options a,
+    .navbar_options a:hover {
+        color: var(--accent);
+    }
+
+    .notice {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}
