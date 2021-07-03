@@ -62,3 +62,10 @@ details > summary {
         background: $button-gradient-hover;
     }
 }
+
+@media (max-width: 1320px) {
+    main {
+        width: 100%;
+        padding: 16px;
+    }
+}

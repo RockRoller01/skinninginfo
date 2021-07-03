@@ -31,25 +31,13 @@
 </head>
 
 <body class="{{ layout.body_class }}">
-    <style>
-        {% if page.highlight %}
-            .header a[href*="{{ page.highlight }}"] {
-                color: var(--accent) !important
-            }
-        {% else %}
-            .header a[href="/"] {
-                color: var(--accent) !important
-            }
-        {% endif %}
-    </style>
-
     <header class="header">
         <nav class="navbar">
-            <a href="{{site.baseurl}}/" class="navbar-item">{% include icons/home.html %}Home</a>
-            <a href="{{site.baseurl}}/tutorial/introduction" class="navbar-item">{% include icons/academic-cap.html %}Tutorial</a>
-            <a href="{{site.baseurl}}/guides" class="navbar-item">{% include icons/news.html %}Guides</a>
-            <a href="{{site.baseurl}}/resources" class="navbar-item">{% include icons/archive.html %}Resources</a>
-            <a href="{{site.baseurl}}/signature" class="navbar-item">{% include icons/image.html %}Signature</a>
+            <a href="{{site.baseurl}}/" class="navbar-item {% if page.highlight %}{% else %}highlight{% endif %}">{% include icons/home.html %}Home</a>
+            <a href="{{site.baseurl}}/tutorial/introduction" class="navbar-item {% if page.highlight == "tutorial"%}highlight{% endif %}">{% include icons/academic-cap.html %}Tutorial</a>
+            <a href="{{site.baseurl}}/guides" class="navbar-item {% if page.highlight == "guides"%}highlight{% endif %}">{% include icons/news.html %}Guides</a>
+            <a href="{{site.baseurl}}/resources" class="navbar-item {% if page.highlight == "resources"%}highlight{% endif %}">{% include icons/archive.html %}Resources</a>
+            <a href="{{site.baseurl}}/signature" class="navbar-item {% if page.highlight == "signature"%}highlight{% endif %}">{% include icons/image.html %}Signature</a>
             <div class="menu navbar-item">
                 {% include icons/menu.html %}
             </div>
@@ -65,8 +53,8 @@
     </footer>
 </body>
 <script>
-  document.querySelector("#navbar_toggle").addEventListener("click", () => {
-    document.querySelector("#links").classList.toggle("visible");
+  document.querySelector(".menu").addEventListener("click", () => {
+    document.querySelector(".navbar").classList.toggle("menu-expanded");
   });
 </script>
 
